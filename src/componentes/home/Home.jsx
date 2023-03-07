@@ -1,8 +1,16 @@
-import './Inicioagroecología.css'
+import './Home.css';
 
-
-export function Inicioagroecología() {
-    return (
+const Home = () => {
+    return(
+        <>
+        <div className='holaquetal'>
+            <div className="hola">
+                <p className='texto'>Conectá con la naturaleza</p>
+            </div>
+            <div className='divFoto'>
+                <img  className='foto' src='#' alt='' />
+            </div>
+        </div>
         <div className="inicioAgroecologia">
             <div className='divAgroecologia'>
                 <div className='divAgroeco'>
@@ -10,7 +18,7 @@ export function Inicioagroecología() {
                 </div>
                 <div className='divFoto'>
                     <div>
-                        <img className='foto'></img>
+                        <img className='foto' src='#' alt=''/>
                     </div>
                     <div>
                         <p className='texto'></p>
@@ -18,5 +26,7 @@ export function Inicioagroecología() {
                 </div>
             </div>
         </div>
-    )
+        </>
+    );
 }
+export default Home;

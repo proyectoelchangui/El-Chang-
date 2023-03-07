@@ -1,8 +1,7 @@
 import './App.css';
-import { Header } from './componentes/Header/Header';
-import { Cuadroizquierda } from './componentes/Cuadroizquierda/Cuadroizquierda';
-import { Inicioagroecología } from './componentes/Inicioagroecología/Inicioagroecología';
+import Header from './componentes/header/Header';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './componentes/home/Home';
 
 
 function App() {
@@ -10,11 +9,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Header></Header>
+        
         <Routes>
-          <Cuadroizquierda></Cuadroizquierda>
-          <Inicioagroecología></Inicioagroecología>
-
-          <Route path='/inicio' element={"hola"} />
+          <Route path='/inicio' element={<Home />} />
           <Route path="*" element={<p>error 404</p>} />
         </Routes>
       </BrowserRouter>
