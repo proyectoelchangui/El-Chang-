@@ -12,10 +12,30 @@
     position: relative;
 }
 
+.divEvento {
+    background: rgba(51, 81, 81, 1);
+    position: absolute;
+    width: 95%;
+    left: 2.5%;
+    z-index: 1000;
+    border-radius: 8px;
+}
+.divEventoTexto{
+    padding: 1rem 2rem;
+    margin: 0;
+    width: 100%;
+}
+.EventoTexto{
+    padding: 1rem;
+    color: rgba(210, 213, 184, 1);
+}
+
 .fotosDatosFoto {
     width: 95%;
     height: 80%;
     border-radius: 8px;
+    background: rgba(0, 0, 0, 0.3);
+
 }
 
 .fotosDatosDivTexto {

@@ -1,5 +1,5 @@
 import './InicioAgroecologia.css'
-import Duraznos from '../../imagenes/Duraznos.jpg'
+import Duraznos from '../../imagenes/imagenesInicio/Duraznos.jpg'
 
 const InicioAgroecologia = () => {
     return (
