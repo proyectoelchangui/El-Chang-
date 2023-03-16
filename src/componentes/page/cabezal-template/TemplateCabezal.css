@@ -1,0 +1,32 @@
+.divNaturaleza {
+    display: flex;
+    height: 20rem;
+
+}
+
+.divTexto {
+    background: rgba(210, 213, 184, 0.3);
+    width: 50%;
+    height: 90%;
+}
+
+.texto {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #335151;
+    font-weight: 600;
+    margin: 0px;
+
+}
+
+.divFoto {
+    width: 50%;
+    border-radius: 0px 0px 0px 20px;
+}
+.Foto{
+    height: 100%;
+    width: 100%;
+    border-radius: 0px 0px 0px 20px;
+}
