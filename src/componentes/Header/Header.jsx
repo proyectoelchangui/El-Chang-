@@ -1,25 +1,24 @@
 import { Link } from 'react-router-dom';
 import './Header.css';
+import Logo from '../../imagenes/Logo.png'
 
 
 const Header = () => {
-    return(
+    return (
         <div className='divHeader'>
-        <div className='container'>
             <div className='divLogo'>
-                <p className=''>el changui</p>
+                <img src={Logo} alt="" width={"100px"} />
             </div>
-            <nav className='divNavbar'>
-                <ul>
-                    <li><Link to="/">Quiénes somos</Link></li>
-                    <li><Link to="/">Qué hacemos</Link></li>
-                    <li><Link to="/">Ecogranja</Link></li>
-                    <li><Link to="/">Voluntariado</Link></li>
-                    <li><Link to="/">Contactános</Link></li>
+            <nav>
+                <ul className='divNavbar'>
+                    <li><Link className='divNavbarTexto'to="/">Quiénes somos</Link></li>
+                    <li><Link className='divNavbarTexto'to="/">Qué hacemos</Link></li>
+                    <li><Link className='divNavbarTexto'to="/">Ecogranja</Link></li>
+                    <li><Link className='divNavbarTexto'to="/">Voluntariado</Link></li>
+                    <li><Link className='divNavbarTexto'to="/">Contactános</Link></li>
                 </ul>
             </nav>
         </div>
-    </div>
     );
 }
 export default Header

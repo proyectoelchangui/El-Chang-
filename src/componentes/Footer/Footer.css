@@ -1,0 +1,22 @@
+.DivFooter {
+    display: flex;
+    background: rgba(51, 81, 81, 1);
+
+}
+
+.divFooterizq {}
+
+
+.footerTexto {
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 400;
+    color: #F2F2F2;
+    margin: 0px;
+}
+.divFooterDer{
+    display: flex;
+}
+.divRedes{
+    display: flex;
+}
