@@ -1,10 +1,10 @@
 import './InicioFotosDatos.css'
-import Suelo from '../../imagenes/imagenesInicio/Suelo.jpg'
-import Compost from '../../imagenes/imagenesInicio/Compost.jpg'
-import EducacionJuventudes from '../../imagenes/imagenesInicio/Educación a juventudes.jpg'
-import Huevos from '../../imagenes/imagenesInicio/Huevos.jpg'
-import Tomates from '../../imagenes/imagenesInicio/Tomates.jpg'
-import ParticipacionActiva from '../../imagenes/imagenesInicio/Participación activa.jpg'
+import Suelo from '../../../imagenes/imagenesInicio/Suelo.jpg'
+import Compost from '../../../imagenes/imagenesInicio/Compost.jpg'
+import EducacionJuventudes from '../../../imagenes/imagenesInicio/Educación-a-juventudes.jpg'
+import Huevos from '../../../imagenes/imagenesInicio/Huevos.jpg'
+import Tomates from '../../../imagenes/imagenesInicio/Tomates.jpg'
+import ParticipacionActiva from '../../../imagenes/imagenesInicio/Participación-activa.jpg'
 import { useState } from 'react'
 
 

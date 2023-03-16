@@ -1,5 +1,5 @@
 import './InicioVideo.css'
-import Hojas from '../../imagenes/imagenesInicio/Hojas.jpg'
+import Hojas from '../../../imagenes/imagenesInicio/Hojas.jpg'
 
 const InicioVideo = () => {
     return (

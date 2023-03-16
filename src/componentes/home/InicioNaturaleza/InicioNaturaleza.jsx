@@ -1,5 +1,5 @@
 import './InicioNaturaleza.css'
-import Hojas from '../../imagenes/imagenesInicio/Hojas.jpg'
+import Hojas from '../../../imagenes/imagenesInicio/Hojas.jpg'
 
 const InicioNaturaleza = () => {
     return (

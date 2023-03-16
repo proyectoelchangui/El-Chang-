@@ -1,16 +1,13 @@
+footer {
+    background: rgba(51, 81, 81, 1);
+}
 .DivFooter {
     display: flex;
     background: rgba(51, 81, 81, 1);
     padding: 5%;
 
 }
-
-.divFooterizq {}
-
-
 .footerTexto {
-    font-family: 'Be Vietnam';
-    font-style: normal;
     font-weight: 400;
     color: #F2F2F2;
     margin: 0px;

@@ -12,7 +12,7 @@ function App() {
         <Header></Header>
         
         <Routes>
-          <Route path='/inicio' element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path="*" element={<p>error 404</p>} />
         </Routes>
         

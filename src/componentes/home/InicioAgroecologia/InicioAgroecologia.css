@@ -9,8 +9,6 @@
 }
 
 .Titulo {
-    font-family: 'Be Vietnam Pro';
-    font-style: normal;
     font-weight: 600;
     color: #FAFFFB;
     margin: 0px;
@@ -37,8 +35,6 @@
     width: 50%;
 }
 .textoAgroecologia {
-    font-family: 'Be Vietnam Pro';
-    font-style: normal;
     font-weight: 400;
     color: #F3FFF5;
     margin: 0;

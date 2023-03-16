@@ -1,27 +1,24 @@
+header {
+    background: #335151;
+    padding: 15px 0;
+}
 .divHeader {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    padding: 1rem;
-    background: #335151;
+    
 }
-
-.divLogo {}
-
 .divNavbar {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin: 0px;
     padding: 0px;
-    gap: 1rem;
     list-style: none;
+    width: 700px;
 }
-
-.navbar {}
-
 .divNavbarTexto {
     color: #FAFFFB;
     text-decoration: none;
-    font-family: 'Be Vietnam Pro';
-    font-style: normal;
     font-weight: 500;
 }
