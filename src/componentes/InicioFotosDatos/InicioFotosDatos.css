@@ -1,0 +1,60 @@
+.gridFotosDatos {
+    display: flex;
+    margin: 5%;
+    row-gap: 1rem;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+.fotosDatosTarjeta {
+    width: 50%;
+    height: 25rem;
+    position: relative;
+}
+
+.divEvento {
+    background: rgba(51, 81, 81, 1);
+    position: absolute;
+    width: 95%;
+    left: 2.5%;
+    z-index: 1000;
+    border-radius: 8px;
+}
+.divEventoTexto{
+    padding: 1rem 2rem;
+    margin: 0;
+    width: 100%;
+}
+.EventoTexto{
+    padding: 1rem;
+    color: rgba(210, 213, 184, 1);
+}
+
+.fotosDatosFoto {
+    width: 95%;
+    height: 80%;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.3);
+
+}
+
+.fotosDatosDivTexto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 20%;
+    position: absolute;
+    top: 30%;
+    left: 2.5%;
+    background: rgba(51, 81, 81, 0.9);
+}
+
+.fotosDatosTexto {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 500;
+    color: #F3FFF5;
+    margin: 0px;
+    letter-spacing: 0.01em;
+}

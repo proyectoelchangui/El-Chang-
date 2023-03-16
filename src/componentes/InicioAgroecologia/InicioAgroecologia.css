@@ -1,0 +1,47 @@
+.divAgroecologia {
+    background: #335151;
+    border-radius: 4px;
+    margin: 5rem 3rem;
+}
+
+.divTitulo {
+    padding: 2rem;
+}
+
+.Titulo {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 600;
+    color: #FAFFFB;
+    margin: 0px;
+}
+
+.div {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 2rem;
+    padding: 1rem;
+}
+.divFotoDuraznos{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.fotoDuraznos {
+    height: 100%;
+    width: 60%;
+    border-radius: 0px 20px;
+}
+
+.divTextoAgroecologia{
+    width: 50%;
+}
+.textoAgroecologia {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    color: #F3FFF5;
+    margin: 0;
+    padding: 1rem;
+    font-size: 1.3rem;
+}

@@ -1,31 +1,18 @@
 import './Home.css';
+import InicioNaturaleza from '../InicioNaturaleza/InicioNaturaleza';
+import InicioAgroecologia from '../InicioAgroecologia/InicioAgroecologia';
+import InicioVideo from '../InicioVideo/InicioVideo';
+import InicioFotosDatos from '../InicioFotosDatos/InicioFotosDatos';
+
+
 
 const Home = () => {
     return(
         <>
-        <div className='holaquetal'>
-            <div className="hola">
-                <p className='texto'>Conectá con la naturaleza</p>
-            </div>
-            <div className='divFoto'>
-                <img  className='foto' src='#' alt='' />
-            </div>
-        </div>
-        <div className="inicioAgroecologia">
-            <div className='divAgroecologia'>
-                <div className='divAgroeco'>
-                    <h2 className='agroeco'>¿Qué es la agroecología?</h2>
-                </div>
-                <div className='divFoto'>
-                    <div>
-                        <img className='foto' src='#' alt=''/>
-                    </div>
-                    <div>
-                        <p className='texto'></p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <InicioNaturaleza></InicioNaturaleza>
+        <InicioAgroecologia></InicioAgroecologia>
+        <InicioVideo></InicioVideo>
+        <InicioFotosDatos></InicioFotosDatos>
         </>
     );
 }
