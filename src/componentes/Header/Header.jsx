@@ -12,11 +12,11 @@ const Header = () => {
                 </div>
                 <nav>
                     <ul className='divNavbar'>
-                        <li><Link className='divNavbarTexto'to="/">Quiénes somos</Link></li>
-                        <li><Link className='divNavbarTexto'to="/">Qué hacemos</Link></li>
-                        <li><Link className='divNavbarTexto'to="/">Ecogranja</Link></li>
-                        <li><Link className='divNavbarTexto'to="/">Voluntariado</Link></li>
-                        <li><Link className='divNavbarTexto'to="/">Contactános</Link></li>
+                        <li><Link className='divNavbarTexto'to="/quienes-somos">Quiénes somos</Link></li>
+                        <li><Link className='divNavbarTexto'to="/que-hacemos">Qué hacemos</Link></li>
+                        <li><Link className='divNavbarTexto'to="/ecogranjas">Ecogranja</Link></li>
+                        <li><Link className='divNavbarTexto'to="/voluntariado">Voluntariado</Link></li>
+                        <li><Link className='divNavbarTexto'to="/contactanos">Contactános</Link></li>
                     </ul>
                 </nav>
             </div>
