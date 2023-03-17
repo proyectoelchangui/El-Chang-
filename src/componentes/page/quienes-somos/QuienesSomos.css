@@ -1,0 +1,138 @@
+.containerQuinesSomos {
+    display: flex;
+    padding: 2rem;
+}
+
+.divQuinesSomosFotoIzq {
+    background: rgba(210, 213, 184, 1);
+    border-radius: 0px 20px;
+    width: 50%;
+}
+
+.divQuinesSomosFoto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.QuinesSomosFoto {
+    width: 80%;
+    height: 80%;
+}
+
+
+.divQuinesSomosTextoDer {
+    width: 50%;
+}
+
+.divQuinesSomosTexto {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.QuinesSomosTexto {
+    color: #335151;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    margin: 0px;
+    padding: 0.5rem;
+}
+
+.divQuinesSomosTitulo {
+    padding: 1rem;
+}
+
+.quinesSomosTitulo {
+    color: rgba(51, 81, 81, 1);
+    font-weight: 600;
+    margin: 0px;
+}
+
+.containerQuinesSomosSoñadores {
+    background: rgba(51, 81, 81, 1);
+    border-radius: 0px 25px;
+
+}
+
+.divQuinesSomosSoñadores {
+    display: flex;
+}
+
+.divQuinesSomosSoñadoresTextoIzq {
+    width: 50%;
+
+}
+
+.QuinesSomosSoñadores {
+    color: #F3FFF5;
+    font-weight: 400;
+    margin: 0px;
+    padding: 1rem;
+}
+
+
+
+.divQuinesSomosSoñadoresTextoDer {
+    width: 50%;
+}
+
+.QuinesSomosSoñadoresFoto {
+    width: 80%;
+    height: 80%;
+    border-radius: 20px 0px;
+}
+
+.divQuinesSomos2 {
+    display: flex;
+}
+
+.divQuinesSomosFotoDerecha {
+    width: 50%;
+}
+
+.QuinesSomosFotos {
+    width: 80%;
+    height: 80%;
+    border-radius: 0px 20px;
+}
+
+.QuinesSomosFotoDer {
+    width: 80%;
+    height: 80%;
+    border-radius: 20px 0px;
+}
+
+
+.containerQuinesSomosAnimales {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    align-items: center;
+}
+
+.divQuinesSomosAnimales {
+    width: 25%;
+}
+
+.FotoQuinesSomosAnimales {
+    width: 100%;
+}
+
+.divQuinesSomosAnimalesTexto {
+    width: 50%;
+}
+
+.QuinesSomosAnimalesTexto {
+    color: #335151;
+    font-weight: 500;
+    margin: 0px;
+    padding: 1rem;
+}
+
+.quinesSomosTitulos {
+    margin: 3rem 3rem 10rem 3rem;
+}
