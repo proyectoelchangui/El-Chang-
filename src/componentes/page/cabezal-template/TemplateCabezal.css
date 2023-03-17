@@ -8,6 +8,8 @@
     background: rgba(210, 213, 184, 0.3);
     width: 50%;
     height: 90%;
+    
+
 }
 
 .texto {
@@ -17,6 +19,7 @@
     align-items: center;
     color: #335151;
     font-weight: 600;
+    font-size: 39.06px;
     margin: 0px;
 
 }
