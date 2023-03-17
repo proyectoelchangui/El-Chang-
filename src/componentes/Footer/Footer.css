@@ -36,4 +36,5 @@ justify-content: space-evenly;
     border: 0;
     border-right: 2px solid rgba(96, 152, 117, 1);
     opacity: 0.5;
+    margin: 1rem;
 }
