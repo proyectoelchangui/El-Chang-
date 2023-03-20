@@ -8,7 +8,7 @@ const Header = () => {
         <header>
             <div className="container divHeader">
                 <div className='divLogo'>
-                    <li><Link to="/"><img src={Logo} alt="" width={"100px"} /></Link></li>
+                    <Link to="/"><img src={Logo} alt="" width={"100px"} /></Link>
                 </div>
                 <nav>
                     <ul className='divNavbar'>
