@@ -1,0 +1,132 @@
+.sectionEcogranja1 {
+    margin: 100px 0;
+}
+.ecogranjaDescripcion {
+    background: #335151;
+    border-radius: 4px;
+    color: #F3FFF5;
+    position: relative;
+    padding: 50px;
+}
+.imgBoxEcogranja {
+    background: url("https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Granja%20educativa%2FNi%C3%B1os%20saludando.jpg?alt=media&token=f4867f03-7320-4457-ac12-238e36d700cf");
+    background-size: cover;
+    filter: drop-shadow(0px 254px 101px rgba(0, 0, 0, 0.01)) drop-shadow(0px 143px 86px rgba(0, 0, 0, 0.05)) drop-shadow(0px 63px 63px rgba(0, 0, 0, 0.09)) drop-shadow(0px 16px 35px rgba(0, 0, 0, 0.1)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.1));
+    border-radius: 40px 0px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    width: 400px;
+    height: 504px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.imgBoxEcogranja2 {
+    background: url("https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Granja%20educativa%2FGrupo%20jovenes.jpg?alt=media&token=85cee06d-6d4e-41ca-af47-fb241f6ca384");
+    background-size: cover;
+    filter: drop-shadow(0px 254px 101px rgba(0, 0, 0, 0.01)) drop-shadow(0px 143px 86px rgba(0, 0, 0, 0.05)) drop-shadow(0px 63px 63px rgba(0, 0, 0, 0.09)) drop-shadow(0px 16px 35px rgba(0, 0, 0, 0.1)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.1));
+    border-radius: 40px 0px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    width: 400px;
+    height: 504px;
+    margin: 0 auto;
+}
+.boxTextDescripcion {
+    margin: 0 auto;
+}
+.boxTextDescripcion h2 {
+    font-weight: 400;
+    line-height: 43.75px;
+    font-size: 31.25px;
+    margin-bottom: 50px;
+}
+.boxTextDescripcion p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.ecogranjaObjetivos {
+    margin-bottom: 100px;
+}
+.ecogranjaObjetivos h2 {
+    font-weight: 600;
+    font-size: 31.25px;
+    line-height: 40px;
+    text-align: center;
+    color: #335151;
+}
+.bloqueObjetivos {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bloqueObjetivosDescripcion {
+    color: #335151;
+    width: 605px;
+    margin: 0 auto;
+}
+.bloqueObjetivosDescripcion ul {
+    margin-top: 50px;
+}
+.bloqueObjetivosDescripcion ul li {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+.imgContBLoqueObjetivos {
+    background: #D2D5B8;
+    border-radius: 40px 0px;
+    position: relative;
+    width: 504px;
+    Height: 416px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgContBloqueObjetivos {
+    width: 440px;
+    height: 352px;   
+    filter: drop-shadow(0px 254px 101px rgba(0, 0, 0, 0.01)) drop-shadow(0px 143px 86px rgba(0, 0, 0, 0.05)) drop-shadow(0px 63px 63px rgba(0, 0, 0, 0.09)) drop-shadow(0px 16px 35px rgba(0, 0, 0, 0.1)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.1));
+    border-radius: 40px 0px;
+    background-size: cover;
+}
+.ecogranjasEtapas {
+    margin-bottom: 100px;
+}
+.flexboxEtapas {
+    display: flex;
+    justify-content: space-between;
+}
+.flexboxEtapas .etapas, .flexboxEtapas .actividades {
+    width: 50%;
+}
+.flexboxEtapas .etapas {
+    border-right: 1px solid #609875;
+}
+.flexboxEtapas .actividades {
+    border-left: 1px solid #609875;
+}
+.etapasHeader, .actividadesHeader {
+    font-weight: 400;
+    font-size: 31.25px;
+    line-height: 40px;
+    text-align: center;
+    color: #335151;
+    padding: 10px;
+    border-bottom: 2px solid #609875;
+}
+.etapasBody {
+    padding: 20px 0px;
+    list-style: none;
+}
+.actividadesBody {
+    padding: 20px 50px;
+}
+.etapasBody li, .actividadesBody li {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    color: #335151;
+    margin-bottom: 40px;
+}
