@@ -7,7 +7,7 @@ const QueHacemosArray = [
         <p class="templateTextNormal">Los productos disponibles están sujetos a la temporada y estación del año.</p>
         <p class="templateTextSmall">Estos son algunos de los que podrás adquirir:</p>
         `,
-        descripcion2: `<p class="templateTextNormal">Si te interesa obtenerlos, <a href=""><b>contactanos</b></a></p>`,
+        descripcion2: `<p class="templateTextNormal">Si te interesa obtenerlos, <a href="/contactanos"><b>contactanos</b></a></p>`,
         galeria : [
             {
                 url: 'https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Qu%C3%A9%20hacemos%2FVenta%20de%20productos%2FPlantin.jpg?alt=media&token=5999c5f9-827b-49fa-9b34-adcab1f57aaa',
@@ -57,7 +57,7 @@ const QueHacemosArray = [
         <p class="templateTextSmall">Estos son conocimientos de gran valor, ya que <b>los resultados de su aplicación están probados y se pueden evidenciar concretamente en El Changüí</b>, que presenta variados desafíos en relación al tipo de suelo y al clima de San Luis.</p>
         <p class="templateTextSmall">Estos son algunos de los Talleres/Charlas que llevamos a cabo:</p>
         `,
-        descripcion2: `<p class="templateTextNormal">Si te interesa conocer más sobre nuestros talleres y charlas, <a href=""><b>contactanos</b></a></p>`,
+        descripcion2: `<p class="templateTextNormal">Si te interesa conocer más sobre nuestros talleres y charlas, <a href="/contactanos"><b>contactanos</b></a></p>`,
         galeria : [
             {
                 url: 'https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Qu%C3%A9%20hacemos%2FTalleres-Charlas%2FHuerta.jpg?alt=media&token=91fc760b-43c8-4079-a156-ce8ce7221a32',
@@ -101,7 +101,7 @@ const QueHacemosArray = [
         <p class="templateTextSmall"><b>Los encuentros son libres y gratuitos y consisten en que cada asistente traiga semillas de su huerta para realizar el cambio<b>.</p>
         <p class="templateTextSmall">En el caso de no tener semillas, es posible asistir con el compromiso de llevarse algunas, multiplicarlas y en el próximo encuentro traer para llevar a cabo el intercambio.</p>
         `,
-        descripcion2: `<p class="templateTextNormal">Si te interesa conocer más sobre nuestra propuesta de Intercambio de semillas, <a href=""><b>contactanos</b></a></p>`,
+        descripcion2: `<p class="templateTextNormal">Si te interesa conocer más sobre nuestra propuesta de Intercambio de semillas, <a href="/contactanos"><b>contactanos</b></a></p>`,
         galeria : [
             {
                 url: 'https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Qu%C3%A9%20hacemos%2FIntercambio%20de%20semillas%2FEspacio%20semillas.jpg?alt=media&token=e122d43f-76e4-4c7c-bc3c-1c9528a214db',
@@ -146,7 +146,7 @@ const QueHacemosArray = [
         <p class="templateTextNormal">La única condición es que convivan en armonía con la pacha.</p>
         <p class="templateTextSmall">Consideramos que asi podemos nutrirnos como comunidad y disfrutar todo lo lindo que ofrece esta vida.</p>
         `,
-        descripcion2: `<p class="templateTextNormal">Si te interesa alquilar el espacio, <a href=""><b>contactanos</b></a></p>`,
+        descripcion2: `<p class="templateTextNormal">Si te interesa alquilar el espacio, <a href="/contactanos"><b>contactanos</b></a></p>`,
         galeria : [
             {
                 url: 'https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Qu%C3%A9%20hacemos%2FAlquiler%20del%20espacio%2FEn%20el%20arbol.jpg?alt=media&token=1426fdb2-c465-4d82-97d8-2103a9b8d65a',

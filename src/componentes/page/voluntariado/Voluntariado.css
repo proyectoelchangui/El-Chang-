@@ -1,3 +1,5 @@
+/* primer foto y texto Voluntariado  */
+
 .containerColorVoluntariado {
     background: #335151;
     margin: 5rem 0;
@@ -41,6 +43,8 @@
     margin: 0px;
 }
 
+/* titulo Valores de nuestras personas voluntarias  */
+
 .divTituloVoluntariado {
     padding: 1rem;
     margin: 10rem 0px 0px 0px;
@@ -51,6 +55,8 @@
     color: #335151;
     font-weight: 600;
 }
+
+/* segunada foto y texto Voluntariado  */
 
 .containerValoresVoluntariado {
     height: 30rem;
@@ -128,6 +134,7 @@
 
 }
 
+/* 2 fotos y texto de la propuesta  */
 
 .containerPropuestaVoluntariado {
     margin: 5rem 0;
@@ -177,6 +184,7 @@
     border-radius: 40px 0px;
 }
 
+/* titulo y texto ¡Importante!  */
 
 .containerImportanteVoluntariado {
     background: #D2D5B8;

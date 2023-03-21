@@ -5,8 +5,10 @@ const QuinenesSomos = () => {
     return (
         <>
             <div className="container">
-
+                
                 <TemplateCabezal titulo={'Quiénes somos'} img={"https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Qui%C3%A9nes%20somos%2FEsteban.jpg?alt=media&token=78710575-0a32-46b8-814f-d459201e1f92"} />
+
+                {/* primer foto y texto quienes somos */}
 
                 <div className="containerQuinesSomos">
                     <div className="divQuinesSomosFotoIzq">
@@ -14,7 +16,7 @@ const QuinenesSomos = () => {
                             <img className="QuinesSomosFoto" src={"https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Qui%C3%A9nes%20somos%2FPapas.jpg?alt=media&token=0dfd6b17-4256-47fe-b0c5-754b26e03c9f"} alt="" />
                         </div>
                     </div>
-
+                    
                     <div className="divQuinesSomosTextoDer">
                         <div className="divQuinesSomosTexto">
                             <p className="QuinesSomosTexto">El Changüí, es un espacio agroecológico de experimentación, aprendizaje y difusión de saberes de la tierra que nos conectan con la pacha y con nuestras raíces.  </p>
@@ -36,6 +38,8 @@ const QuinenesSomos = () => {
                         </div>
                     </div>
                 </div>
+
+                {/* titulo y container soñadores del Changüí   */}
 
                 <div className="divQuinesSomosTitulo">
                     <h2 className="quinesSomosTitulo">Los soñadores del Changüí</h2>
@@ -81,6 +85,8 @@ const QuinenesSomos = () => {
 
                 </div>
 
+                {/* 2 fotos izquierda y texto  */}
+
                 <div className="divQuinesSomos2">
                     <div className="divQuinesSomosFotoDerecha">
                         <div className="divQuinesSomosFoto">
@@ -111,6 +117,8 @@ const QuinenesSomos = () => {
                     </div>
                 </div>
 
+                {/* 2 fotos derecha y texto  */}
+
                 <div className="divQuinesSomos2">
 
                     <div className="divQuinesSomosTextoDer">
@@ -125,7 +133,6 @@ const QuinenesSomos = () => {
                             <img className="QuinesSomosFotoDer" src={"https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Qui%C3%A9nes%20somos%2FOveja.jpg?alt=media&token=b268736c-a5c7-4062-a6b3-63b397a790e7"} alt="" />
                         </div>
                     </div>
-
 
                 </div>
 
@@ -145,9 +152,11 @@ const QuinenesSomos = () => {
 
                 </div>
 
+                {/* 2 fotos y texto en el medio  */}
+
                 <div className="containerQuinesSomosAnimales">
                     <div className="divQuinesSomosAnimales">
-                        <img className="FotoQuinesSomosAnimales" src={"https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Qui%C3%A9nes%20somos%2FPatitos.jpg?alt=media&token=e49bcf7a-e555-4ce7-b13c-c77712724b0c"} alt="" />
+                        <img className="FotoIzqQuinesSomosAnimales" src={"https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Qui%C3%A9nes%20somos%2FPatitos.jpg?alt=media&token=e49bcf7a-e555-4ce7-b13c-c77712724b0c"} alt="" />
 
                     </div>
                     <div className="divQuinesSomosAnimalesTexto">
@@ -155,10 +164,12 @@ const QuinenesSomos = () => {
 
                     </div>
                     <div className="divQuinesSomosAnimales">
-                        <img className="FotoQuinesSomosAnimales" src={"https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Qui%C3%A9nes%20somos%2FGallina%20y%20pollito.jpg?alt=media&token=88399496-7a43-4468-bf61-201ce4c26f4e"} alt="" />
+                        <img className="FotoDerQuinesSomosAnimales" src={"https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Qui%C3%A9nes%20somos%2FGallina%20y%20pollito.jpg?alt=media&token=88399496-7a43-4468-bf61-201ce4c26f4e"} alt="" />
 
                     </div>
                 </div>
+
+                {/* texto  acompañanos */}
 
                 <div className="divQuinesSomosTitulo">
                     <h2 className="quinesSomosTitulos">El Changüí, trabaja todos los días para continuar creciendo, acompañanos...</h2>
