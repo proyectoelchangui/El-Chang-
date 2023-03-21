@@ -1,0 +1,222 @@
+/* primer foto y texto Voluntariado  */
+
+.containerColorVoluntariado {
+    background: #335151;
+    margin: 5rem 0;
+    height: 30rem;
+    border-radius: 4px;
+    box-shadow: 1px 824px 330px rgba(0, 0, 0, 0.01), 0px 464px 278px rgba(0, 0, 0, 0.05), 0px 206px 206px rgba(0, 0, 0, 0.09), 0px 52px 113px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.divColorVoluntariado {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.divFotoIzqVoluntariado {
+    width: 50%;
+}
+
+.fotoIzqVoluntariado {
+    margin-top: 10%;
+    width: 70%;
+    height: 100%;
+    border-radius: 0px 40px;
+}
+
+.divTextoDerVoluntariado {
+    width: 50%;
+}
+
+.divFlexTextoVoluntariado {
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    height: 100%;
+    align-items: center;
+}
+
+.textoDerVoluntariado {
+    color: #F3FFF5;
+    font-weight: 400;
+    margin: 0px;
+}
+
+/* titulo Valores de nuestras personas voluntarias  */
+
+.divTituloVoluntariado {
+    padding: 1rem;
+    margin: 10rem 0px 0px 0px;
+}
+
+.tituloVoluntariado {
+    margin: 0px;
+    color: #335151;
+    font-weight: 600;
+}
+
+/* segunada foto y texto Voluntariado  */
+
+.containerValoresVoluntariado {
+    height: 30rem;
+    margin: 5% 0;
+}
+
+.divFlexValoresVoluntariado {
+    display: flex;
+    height: 100%;
+}
+
+.divTextoIzqValoresVoluntariado {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divColorTextoIzqValoresVoluntariado {
+    background: #335151;
+    position: relative;
+    width: 100%;
+    height: 60%;
+    border-radius: 40px 0px;
+    left: 80px;
+}
+
+.textoValoresVoluntariado {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    font-weight: 600;
+    color: #F3FFF5;
+    line-height: 240%;
+    font-size: 25px;
+}
+
+.divFlexFotoDerValoresVoluntariado {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.divColorFotoDerValoresVoluntariado {
+    background: #D2D5B8;
+    height: 90%;
+    display: flex;
+    width: 100%;
+    border-radius: 40px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.FotoDerValoresVoluntariado {
+    height: 90%;
+    width: 94%;
+    border-radius: 40px 0px;
+}
+
+.divTextoVoluntariado {
+    margin: 2rem 0;
+    padding: 1rem;
+
+}
+
+.TextoVoluntariado {
+    margin: 0;
+    color: #335151;
+    font-weight: 500;
+    line-height: 140%;
+
+}
+
+/* 2 fotos y texto de la propuesta  */
+
+.containerPropuestaVoluntariado {
+    margin: 5rem 0;
+    height: 30rem;
+    border-radius: 4px;
+}
+
+.divFlexPropuestaVoluntariado {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.divTextoIzqPropuestaVoluntariado {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.TextoIzqPropuestaVoluntariado {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.divListaPropuestaVoluntariado {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.ListaPropuestaVoluntariado {}
+
+.divFotoDerPropuestaVoluntariado {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fotoDerPropuestaVoluntariado {
+    height: 80%;
+    width: 80%;
+    border-radius: 40px 0px;
+}
+
+/* titulo y texto ¡Importante!  */
+
+.containerImportanteVoluntariado {
+    background: #D2D5B8;
+    opacity: 0.5;
+    border-radius: 40px 0px;
+    height: 10rem;
+    margin: 5rem 0px;
+}
+
+.divImportanteVoluntariado {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+
+
+
+.holaquetal {
+    background: #D2D5B8;
+    border-radius: 0px 40px;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.holaquetalfoto{
+    height: 90%;
+    width: 90%;
+    border-radius: 0px 40px;
+
+}
