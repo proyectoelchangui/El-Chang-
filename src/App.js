@@ -8,6 +8,7 @@ import QueHacemos from './componentes/page/que-hacemos/QueHacemos';
 import Template from './componentes/page/que-hacemos/Template';
 import Ecogranja from './componentes/page/ecogranja/Ecogranja';
 import Voluntariado from './componentes/page/voluntariado/Voluntariado';
+import Contactanos from './componentes/page/contactanos/Contactanos';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path='/que-hacemos/:titulo' element={<Template />} />
           <Route path='/ecogranja' element={<Ecogranja />} />
           <Route path='/voluntariado' element={<Voluntariado />} />
+          <Route path='/contactanos' element={<Contactanos />} />
           <Route path="*" element={<p>error 404</p>} />
         </Routes>
 
