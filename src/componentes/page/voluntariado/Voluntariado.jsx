@@ -6,7 +6,7 @@ const Voluntariado = () => {
         <>
             <div className="container">
 
-                <TemplateCabezal titulo={'Voluntariado'} width={'100px'} img={'https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Voluntariado%2Fgrupo.jpg?alt=media&token=9c873cbb-ae50-4b32-ab23-21d5ac84bcea'} />
+                <TemplateCabezal titulo={'Voluntariado'} img={'https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Voluntariado%2Fgrupo.jpg?alt=media&token=9c873cbb-ae50-4b32-ab23-21d5ac84bcea'} />
 
                 {/* primer foto y texto Voluntariado  */}
 
@@ -18,7 +18,7 @@ const Voluntariado = () => {
                         </div>
                         <div className="divTextoDerVoluntariado">
                             <div className="divFlexTextoVoluntariado">
-                                <p className="textoDerVoluntariado">Para la familia del Changüí, las personas voluntarias,  son seres que llegan, comparten sus saberes, tiempo y cuerpo vital, para que nuestro proyecto se siga nutriendo de otras energías al mismo tiempo que lo  impulsan para que continúe creciendo y perpetuándose en el tiempo.l</p>
+                                <p className="textoDerVoluntariado">Para la familia del Changüí, las personas voluntarias,  son seres que llegan, comparten sus saberes, tiempo y cuerpo vital, para que nuestro proyecto se siga nutriendo de otras energías al mismo tiempo que lo  impulsan para que continúe creciendo y perpetuándose en el tiempo.</p>
                             </div>
                         </div>
                     </div>

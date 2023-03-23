@@ -1,0 +1,65 @@
+.divTextoContactanos {
+    margin: 5rem 0 5rem 0;
+}
+
+.textoContactanos {
+    margin: 0px;
+    padding: 1rem;
+    font-weight: 400;
+    font-size: 31.25px;
+    line-height: 140%;
+}
+
+.containerRedesContactanos {
+    margin: 5rem 0 5rem 0;
+    position: relative;
+}
+
+.fondoFotoRedesContactanos {
+    height: 35rem;
+
+}
+
+.fotoRedesContactanos {
+    width: 100%;
+    height: 100%;
+}
+
+.fondoColorRedesContactanos {
+    background: #335151;
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    top: 130px;
+    border-radius: 40px 0px;
+}
+
+.divGridRedesContactanos {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    height: 100%;
+}
+
+.divRedesContactanos {
+    border: 1px solid #F3FFF5;
+    border-radius: 24px;
+    margin: 3rem 1rem;
+    padding: 2rem 0.5rem;
+}
+
+.tituloRedesContactanos {
+    color: #F3FFF5;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    margin: 0px;
+    padding: 1rem 0px;
+}
+
+.textoRedesContactanos {
+    color: #F3FFF5;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0px;
+}
