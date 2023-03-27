@@ -9,8 +9,6 @@
     background: rgba(210, 213, 184, 0.3);
     width: 50%;
     height: 90%;
-    
-
 }
 
 .texto {
@@ -28,8 +26,10 @@
 .divFoto {
     width: 50%;
     border-radius: 0px 0px 0px 20px;
+    box-shadow: -353px 135px 151px rgba(0, 0, 0, 0.03), -198px 76px 127px rgba(0, 0, 0, 0.1), -88px 34px 94px rgba(0, 0, 0, 0.17), -22px 8px 52px rgba(0, 0, 0, 0.2), 0px 0px 0px rgba(0, 0, 0, 0.2);
 }
-.Foto{
+
+.Foto {
     height: 100%;
     width: 100%;
     border-radius: 0px 0px 0px 20px;

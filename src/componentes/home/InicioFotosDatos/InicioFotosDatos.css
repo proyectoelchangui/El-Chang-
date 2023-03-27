@@ -11,37 +11,48 @@
     height: 25rem;
     position: relative;
 }
-.divEventos{
+
+.divEventos {
     position: relative;
 }
+
 .divEvento {
     background: rgba(51, 81, 81, 1);
     position: absolute;
     width: 100%;
     z-index: 1000;
-    border-radius: 8px;
+    border-radius: 16px;
+    height: 368px;
 }
-.divEventoTexto{
+
+.divEventoTexto {
     padding: 1rem 2rem;
     margin: 0;
     width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
-.EventoTexto{
-    padding: 1rem;
-    color: rgba(210, 213, 184, 1);
+
+.EventoTexto {
+    color: #F3FFF5;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    text-align: left;
 }
 
 .fotosDatosFoto {
-    border-radius: 24px;
+    border-radius: 16px;
     height: 368px;
     position: relative;
 
 }
 
 .fotosDatosDivTexto {
-    background: linear-gradient(0deg,rgba(0,0,0,.3),rgba(0,0,0,.3));
-    border-radius: 24px;
-    box-shadow: 0 310px 124px rgba(0,0,0,.01), 0 174px 105px rgba(0,0,0,.05), 0 77px 77px rgba(0,0,0,.09), 0 19px 43px rgba(0,0,0,.1), 0 0 0 rgba(0,0,0,.1);
+    background: linear-gradient(0deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3));
+    border-radius: 16px;
+    box-shadow: 0 310px 124px rgba(0, 0, 0, .01), 0 174px 105px rgba(0, 0, 0, .05), 0 77px 77px rgba(0, 0, 0, .09), 0 19px 43px rgba(0, 0, 0, .1), 0 0 0 rgba(0, 0, 0, .1);
     display: flex;
     height: 100%;
     left: 0;
@@ -54,29 +65,18 @@
 }
 
 .fotosDatosTexto {
-    background: rgba(51,81,81,.85);
+    background: rgba(51, 81, 81, .85);
     color: #f3fff5;
     font-size: 25px;
-    font-weight: 600;
-    letter-spacing: .01em;
-    line-height: 38px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    line-height: 47px;
     padding: 10px 0;
     text-align: center;
     width: 100%;
 }
 
-
-
-
-.prueba{
-
-}
-
-
-
-
-
-.divEventoprueba{
+.divEventoprueba {
     background: rgba(51, 81, 81, 1);
     position: absolute;
     width: 100%;

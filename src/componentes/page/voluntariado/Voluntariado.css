@@ -39,8 +39,11 @@
 
 .textoDerVoluntariado {
     color: #F3FFF5;
-    font-weight: 400;
     margin: 0px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 140%;
+    text-align: left;
 }
 
 /* titulo Valores de nuestras personas voluntarias  */
@@ -54,6 +57,8 @@
     margin: 0px;
     color: #335151;
     font-weight: 600;
+    font-size: 31.25px;
+    line-height: 40px;
 }
 
 /* segunada foto y texto Voluntariado  */
@@ -82,6 +87,7 @@
     height: 60%;
     border-radius: 40px 0px;
     left: 80px;
+    box-shadow: 0px 254px 101px rgba(0, 0, 0, 0.01), 0px 143px 86px rgba(0, 0, 0, 0.05), 0px 63px 63px rgba(0, 0, 0, 0.09), 0px 16px 35px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
 }
 
 .textoValoresVoluntariado {
@@ -118,6 +124,7 @@
     height: 90%;
     width: 94%;
     border-radius: 40px 0px;
+    box-shadow: 0px 451px 180px rgba(0, 0, 0, 0.01), 0px 254px 152px rgba(0, 0, 0, 0.05), 0px 113px 113px rgba(0, 0, 0, 0.09), 0px 28px 62px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
 }
 
 .divTextoVoluntariado {
@@ -130,6 +137,7 @@
     margin: 0;
     color: #335151;
     font-weight: 500;
+    font-size: 25px;
     line-height: 140%;
 
 }
