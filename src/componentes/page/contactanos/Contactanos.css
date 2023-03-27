@@ -8,11 +8,13 @@
     font-weight: 400;
     font-size: 31.25px;
     line-height: 140%;
+    text-align: center;
 }
 
 .containerRedesContactanos {
     margin: 5rem 0 5rem 0;
     position: relative;
+    box-shadow: 1px 845px 338px rgba(0, 0, 0, 0.01), 0px 476px 285px rgba(0, 0, 0, 0.05), 0px 211px 211px rgba(0, 0, 0, 0.09), 0px 53px 116px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
 }
 
 .fondoFotoRedesContactanos {
@@ -23,6 +25,7 @@
 .fotoRedesContactanos {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .fondoColorRedesContactanos {
@@ -37,15 +40,18 @@
 .divGridRedesContactanos {
     display: grid;
     grid-template-columns: repeat(4, 25%);
+    margin: 0 5%;
     height: 100%;
 }
 
 .divRedesContactanos {
     border: 1px solid #F3FFF5;
-    color: #F3FFF5;;
+    color: #F3FFF5;
+    ;
     border-radius: 24px;
     margin: 3rem 1rem;
     padding: 2rem 0.5rem;
+    text-align: center;
 }
 
 .divRedesContactanos:hover {
@@ -65,4 +71,16 @@
     font-weight: 300;
     font-size: 14px;
     margin: 0px;
+}
+
+.divMapaContactanos {
+    display: flex;
+    margin: 10rem 0;
+    justify-content: center;
+}
+
+.mapaContactanos {
+    width: 80%;
+    height: 500px;
+    box-shadow: 0px 627px 251px rgba(0, 0, 0, 0.01), 0px 353px 212px rgba(0, 0, 0, 0.03), 0px 157px 157px rgba(0, 0, 0, 0.04), 0px 39px 86px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
 }

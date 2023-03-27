@@ -3,15 +3,21 @@ footer {
 }
 .DivFooter {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     background: rgba(51, 81, 81, 1);
-    padding: 5%;
-
+    padding: 50px 0px;
+}
+.sloganFooter {
+    font-weight: 400;
+    color: #F2F2F2;
+    text-align: left
 }
 .footerTexto {
     font-weight: 400;
     color: #F2F2F2;
-    margin: 0px;
-    padding: 1rem ;
+    text-align: center;
 }
 .footerIconos{
     width: 2rem;
@@ -21,20 +27,26 @@ footer {
 }
 .divFooterDer{
     display: flex;
-    width: 100%;
-}
-.divRedes{
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-}
-.divFooterLogoRedes{
-    display: flex;
-justify-content: space-evenly;
 }
 .footerSeparador{
     border: 0;
     border-right: 2px solid rgba(96, 152, 117, 1);
     opacity: 0.5;
     margin: 1rem;
+}
+.box-footer {
+    text-align: center;
+    color: #F2F2F2;
+}
+.box-footer span{
+    color: #F2F2F2;
+    margin: 0px 5px;
+}
+.box-footer a {
+    margin-left: 5px;
+}
+.copyFooter {
+    color: #F2F2F2;
+    text-align: left;
+    margin-top: 50px;
 }

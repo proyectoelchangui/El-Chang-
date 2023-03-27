@@ -98,6 +98,7 @@
     font-weight: 600;
     font-size: 31.25px;
     line-height: 40px;
+    text-align: center;
 }
 
 .containerQuinesSomosSoñadores {
@@ -140,11 +141,18 @@
     border-radius: 0px 40px;
 }
 
-.QuinesSomosSoñadoresFoto {
+.QuinesSomosSoñadoresFoto1 {
     width: 80%;
     height: 80%;
     border-radius: 40px 0px;
     box-shadow: 0px 310px 124px rgba(0, 0, 0, 0.02), 0px 174px 105px rgba(0, 0, 0, 0.08), 0px 77px 77px rgba(0, 0, 0, 0.13), 0px 19px 43px rgba(0, 0, 0, 0.15), 0px 0px 0px rgba(0, 0, 0, 0.15);
+}
+.QuinesSomosSoñadoresFoto2 {
+    width: 80%;
+    height: 80%;
+    border-radius: 40px 0px;
+    box-shadow: 0px 310px 124px rgba(0, 0, 0, 0.02), 0px 174px 105px rgba(0, 0, 0, 0.08), 0px 77px 77px rgba(0, 0, 0, 0.13), 0px 19px 43px rgba(0, 0, 0, 0.15), 0px 0px 0px rgba(0, 0, 0, 0.15);
+    object-fit: cover;
 }
 
 /* 2 fotos izquierda y texto  */
@@ -186,12 +194,9 @@
     height: 80%;
     border-radius: 40px 0px;
     box-shadow: 0px 437px 175px rgba(0, 0, 0, 0.01), 0px 246px 147px rgba(0, 0, 0, 0.05), 0px 109px 109px rgba(0, 0, 0, 0.09), 0px 27px 60px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
 
 }
-
-
-
-
 
 .containerQuinesSomosAnimales {
     display: flex;
@@ -209,6 +214,7 @@
     height: 20rem;
     border-radius: 40px 0px;
     box-shadow: 0px 247px 99px rgba(0, 0, 0, 0.02), 0px 139px 84px rgba(0, 0, 0, 0.08), 0px 62px 62px rgba(0, 0, 0, 0.13), 0px 15px 34px rgba(0, 0, 0, 0.15), 0px 0px 0px rgba(0, 0, 0, 0.15);
+    object-fit: cover;
 }
 
 .FotoDerQuinesSomosAnimales {
@@ -216,6 +222,7 @@
     height: 20rem;
     border-radius: 0px 40px;
     box-shadow: 0px 247px 99px rgba(0, 0, 0, 0.02), 0px 139px 84px rgba(0, 0, 0, 0.08), 0px 62px 62px rgba(0, 0, 0, 0.13), 0px 15px 34px rgba(0, 0, 0, 0.15), 0px 0px 0px rgba(0, 0, 0, 0.15);
+    object-fit: cover;
 }
 
 .divQuinesSomosAnimalesTexto {
@@ -231,7 +238,7 @@
     font-size: 25px;
 }
 
-.divQuinesSomosTituloAcompañanos{
+.divQuinesSomosTituloAcompañanos {
     padding: 1rem;
     margin: 3rem 3rem 10rem 3rem;
 }

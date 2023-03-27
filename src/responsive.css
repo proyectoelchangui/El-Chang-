@@ -1,0 +1,138 @@
+/**********
+991px
+**********/
+@media only screen and (max-width: 991px)
+{
+    /*HEADER*/
+	.divNavbar {
+        width: auto;
+    }
+    .divNavbar li {
+        font-size: 0.8em;
+        margin: 0 5px;
+    }
+}
+
+/**********
+767px
+**********/
+@media only screen and (max-width: 767px)
+{
+    /*HEADER*/
+    .mobileOculto {
+        display: block;
+        height: 67px;
+    }
+    .menuMobile {
+        display: block;
+        color: #F3FFF5;
+    }
+	.divNavbar {
+        position: fixed;
+        left: 0;
+        top: 67px;
+        background: #335151;
+        width: 250px;
+        height: 100%;
+        display: none;
+        z-index: 9999999;
+    }
+    .active {
+        display: block !important;
+    }
+    .divNavbar li {
+        width: 100%;
+        margin: 0;
+        text-align: left;
+        padding: 20px;
+        font-size: 16px;
+    }
+    /*FOOTER*/
+    .DivFooter {
+        text-align: center !important;
+    }
+    .sloganFooter {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .divFooterDer {
+        flex-wrap: wrap;
+    }
+    .iconMobile {
+        display: inline-block;
+    }
+    .footerTexto, .footerSeparador, .hiddenMobileFooter {
+        display: none;
+    }
+    .box-footer {
+        margin-top: 50px;
+        padding: 0 20%;
+    }
+    .copyFooter {
+        width: 100%;
+        text-align: center ;
+    }
+    /*template cabezal*/
+    .texto {
+        font-weight: 600;
+        font-size: 31.25px;
+        line-height: 40px;
+    }
+    /*HOME*/
+    .divAgroecologia {
+        margin: 0;
+    }
+    .div {
+        padding: 0;
+        margin: 0;
+    }
+    .Titulo {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .fotoDuraznos {
+        object-fit: cover;
+        height: auto;
+        width: 90%;
+        height: 368px;
+    }
+    .textoAgroecologia {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 27px;
+    }
+    .InicioVideoTexto {
+        margin-top: 50px;
+        font-size: 25px;
+        line-height: 32px;
+        padding: 0;
+    }
+    .divInicioVideo {
+        margin: 0;
+        margin-bottom: 50px;
+    }
+    .gridFotosDatos {
+        margin: 0;
+        margin-top: 20px;
+    }
+    .fotosDatosFoto {
+        height: 250px;
+    }
+    .fotosDatosTexto {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.01em;
+    }
+}
+/**********
+425px
+**********/
+@media (min-device-width: 100px) and (max-device-width: 425px)
+{
+    /*FOOTER*/
+    .sloganFooter, .copyFooter {
+        padding: 0 20px;
+    }
+}

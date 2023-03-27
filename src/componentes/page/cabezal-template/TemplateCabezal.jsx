@@ -1,6 +1,6 @@
 import './TemplateCabezal.css'
 
-const TemplateCabezal = ({titulo, img}) => {
+const TemplateCabezal = ({titulo, img, position}) => {
     return (
         <>
             <div className='divNaturaleza'>
@@ -8,7 +8,7 @@ const TemplateCabezal = ({titulo, img}) => {
                     <p className='texto'>{titulo}</p>
                 </div>
                 <div className='divFoto'>
-                    <img className='Foto' src={img} alt="" />
+                    <img className='Foto' src={img} alt="" style={{objectPosition: `${position}`}} />
                 </div>
             </div>
         </>

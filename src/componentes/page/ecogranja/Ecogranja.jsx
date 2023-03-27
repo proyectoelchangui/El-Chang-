@@ -43,9 +43,7 @@ const Ecogranja = () => {
     ]
     return(
         <>
-        <div className="container">
-            <TemplateCabezal titulo={'Ecogranja'} img={img} />
-        </div>
+        <TemplateCabezal titulo={'Ecogranja'} img={img} position={'center'} />
         <section className="sectionEcogranja1">
             <div className="container">
                 <div className="ecogranjaDescripcion row">

@@ -1,13 +1,12 @@
+import { Link } from "react-router-dom";
 import TemplateCabezal from "../cabezal-template/TemplateCabezal";
 import './Voluntariado.css'
 
 const Voluntariado = () => {
     return (
         <>
+            <TemplateCabezal titulo={'Voluntariado'} img={'https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Voluntariado%2Fgrupo.jpg?alt=media&token=9c873cbb-ae50-4b32-ab23-21d5ac84bcea'} position={'center'} />
             <div className="container">
-
-                <TemplateCabezal titulo={'Voluntariado'} img={'https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Voluntariado%2Fgrupo.jpg?alt=media&token=9c873cbb-ae50-4b32-ab23-21d5ac84bcea'} />
-
                 {/* primer foto y texto Voluntariado  */}
 
                 <div className="containerColorVoluntariado">
@@ -83,7 +82,7 @@ const Voluntariado = () => {
                     <div className="divFlexPropuestaVoluntariado">
                         <div className="divTextoIzqPropuestaVoluntariado">
                             <h2 className="TextoIzqPropuestaVoluntariado">La persona asiste en los días y horarios establecidos con los referentes del lugar.</h2>
-                            <p>Se intercambian 4 horas de trabajo a cambio de :</p>
+                            <p className="ListaPropuestaVoluntariado">Se intercambian 4 horas de trabajo a cambio de :</p>
                             <ul className='divListaPropuestaVoluntariado'>
                                 <li className='ListaPropuestaVoluntariado'>Saberes y capacitación de las actividades que se van realizando en el día.</li>
                                 <li className='ListaPropuestaVoluntariado'>2 comidas según horario designado.</li>
@@ -99,15 +98,15 @@ const Voluntariado = () => {
 
                 <div className="containerImportanteVoluntariado">
                     <div className="divImportanteVoluntariado">
-                        <h2>¡Importante!</h2>
-                        <p>No se requiere experiencia previa, solo muchas ganas de meter mano en la tierra</p>
+                        <h2 className="tituloImportanteVoluntariado">¡Importante!</h2>
+                        <p className="textoImportanteVoluntariado">No se requiere experiencia previa, solo muchas ganas de meter mano en la tierra</p>
                     </div>
                 </div>
 
                 {/* titulo y texto ¿Qué actividades realizarás?  */}
 
                 <div>
-                    <h2>¿Qué actividades realizarás?</h2>
+                    <h2 className="tituloImportanteVoluntariado">¿Qué actividades realizarás?</h2>
                 </div>
 
                 <div className="divTextoVoluntariado">
@@ -116,8 +115,8 @@ const Voluntariado = () => {
 
                 {/* foto Plantines  */}
 
-                <div className="holaquetal">
-                    <img className="holaquetalfoto" src={'https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Voluntariado%2FPlantines.jpg?alt=media&token=4f831e35-a3dc-4380-9bc2-146d8c0a25d0'} alt="" />
+                <div className="divFotoPlantinesVoluntariado">
+                    <img className="fotoPlantinesVoluntariado" src={'https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Voluntariado%2FPlantines.jpg?alt=media&token=4f831e35-a3dc-4380-9bc2-146d8c0a25d0'} alt="" />
                 </div>
 
                 {/* titulo y texto Proponemos tareas de diferente intensidad. */}
@@ -135,7 +134,7 @@ const Voluntariado = () => {
                 <div className="containerPropuestaVoluntariado">
                     <div className="divFlexPropuestaVoluntariado">
                         <div className="divFotoDerPropuestaVoluntariado">
-                            <img className="fotoDerPropuestaVoluntariado" src={'https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Voluntariado%2FBarnizando.jpg?alt=media&token=bab3a88f-5b92-42d7-8a53-f838af274240'} alt="" />
+                            <img className="fotoMaderaVoluntariado" src={'https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Voluntariado%2FBarnizando.jpg?alt=media&token=bab3a88f-5b92-42d7-8a53-f838af274240'} alt="" />
                         </div>
                         <div className="divTextoIzqPropuestaVoluntariado">
                             <h2 className="TextoIzqPropuestaVoluntariado">Estos son solo algunos de los muchos labores que podrás llevar a cabo:</h2>
@@ -152,8 +151,8 @@ const Voluntariado = () => {
 
                 {/* tiulo contactanos */}
 
-                <div className="divTextoVoluntariado">
-                    <h2 className="TextoVoluntariado">Si te interesa saber más de nuestra propuesta de Voluntariado,  contactanos</h2>
+                <div className="divUltimoTextoVoluntariado">
+                    <h2 className="ultimoTextoVoluntariado">Si te interesa saber más de nuestra propuesta de Voluntariado,<Link className="ultimoTextoLinkVoluntariado" to="/contactanos">contactanos</Link> </h2>
                 </div>
 
             </div>

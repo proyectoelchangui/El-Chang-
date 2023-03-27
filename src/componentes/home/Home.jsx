@@ -44,13 +44,13 @@ const Home = () => {
     ]
     return(
         <>
+        <InicioNaturaleza></InicioNaturaleza>
         <div className="container">
-            <InicioNaturaleza></InicioNaturaleza>
             <InicioAgroecologia></InicioAgroecologia>
             <InicioVideo></InicioVideo>
             <InicioFotosDatos></InicioFotosDatos>
         </div>
-        <Carousel arrayCarousel={arrayCarousel} titulo={'El Changüí en imágenes'}/>
+        <Carousel arrayCarousel={arrayCarousel} titulo={'El Changüí en imágenes'} position={'center'}/>
         </>
     );
 }

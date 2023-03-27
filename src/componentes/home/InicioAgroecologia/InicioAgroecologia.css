@@ -9,11 +9,13 @@
 }
 
 .Titulo {
-    font-weight: 600;
     color: #FAFFFB;
+    font-weight: 600;
     font-size: 31.25px;
     line-height: 35px;
-    margin: 0px;
+    /* identical to box height, or 112% */
+
+    text-align: center;
 }
 
 .div {
@@ -26,6 +28,7 @@
     width: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .fotoDuraznos {

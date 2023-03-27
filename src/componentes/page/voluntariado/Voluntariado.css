@@ -19,10 +19,11 @@
 }
 
 .fotoIzqVoluntariado {
-    margin-top: 10%;
+    margin: 10% 0 0 10%;
     width: 70%;
     height: 100%;
     border-radius: 0px 40px;
+    object-fit: cover;
 }
 
 .divTextoDerVoluntariado {
@@ -59,6 +60,7 @@
     font-weight: 600;
     font-size: 31.25px;
     line-height: 40px;
+    text-align: center;
 }
 
 /* segunada foto y texto Voluntariado  */
@@ -125,6 +127,7 @@
     width: 94%;
     border-radius: 40px 0px;
     box-shadow: 0px 451px 180px rgba(0, 0, 0, 0.01), 0px 254px 152px rgba(0, 0, 0, 0.05), 0px 113px 113px rgba(0, 0, 0, 0.09), 0px 28px 62px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
 }
 
 .divTextoVoluntariado {
@@ -139,6 +142,7 @@
     font-weight: 500;
     font-size: 25px;
     line-height: 140%;
+    text-align: center;
 
 }
 
@@ -160,7 +164,7 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 1rem;
 }
 
@@ -176,7 +180,13 @@
     align-items: flex-start;
 }
 
-.ListaPropuestaVoluntariado {}
+.ListaPropuestaVoluntariado {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #335151;
+    margin: 0;
+}
 
 .divFotoDerPropuestaVoluntariado {
     width: 50%;
@@ -190,16 +200,18 @@
     height: 80%;
     width: 80%;
     border-radius: 40px 0px;
+    box-shadow: 0px 310px 124px rgba(0, 0, 0, 0.01), 0px 174px 105px rgba(0, 0, 0, 0.05), 0px 77px 77px rgba(0, 0, 0, 0.09), 0px 19px 43px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
 }
 
 /* titulo y texto ¡Importante!  */
 
 .containerImportanteVoluntariado {
-    background: #D2D5B8;
-    opacity: 0.5;
+    background: #d2d5b870;
     border-radius: 40px 0px;
     height: 10rem;
     margin: 5rem 0px;
+    
 }
 
 .divImportanteVoluntariado {
@@ -211,10 +223,25 @@
     padding: 1rem;
 }
 
+.tituloImportanteVoluntariado {
+    color: #335151;
+    font-weight: 600;
+    font-size: 31.25px;
+    line-height: 140%;
+    margin: 0;
+    text-align: center;
+}
 
+.textoImportanteVoluntariado {
+    color: #335151;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 140%;
+    margin: 0;
+    text-align: center;
+}
 
-
-.holaquetal {
+.divFotoPlantinesVoluntariado {
     background: #D2D5B8;
     border-radius: 0px 40px;
     height: 25rem;
@@ -222,9 +249,41 @@
     align-items: center;
     justify-content: center;
 }
-.holaquetalfoto{
+
+.fotoPlantinesVoluntariado {
     height: 90%;
     width: 90%;
     border-radius: 0px 40px;
+    box-shadow: 0px 500px 200px rgba(0, 0, 0, 0.01), 0px 281px 169px rgba(0, 0, 0, 0.05), 0px 125px 125px rgba(0, 0, 0, 0.09), 0px 31px 69px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
 
+.fotoMaderaVoluntariado {
+    height: 80%;
+    width: 80%;
+    border-radius: 0px 40px;
+    box-shadow: 0px 500px 200px rgba(0, 0, 0, 0.01), 0px 281px 169px rgba(0, 0, 0, 0.05), 0px 125px 125px rgba(0, 0, 0, 0.09), 0px 31px 69px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+.divUltimoTextoVoluntariado {
+    margin: 1rem 0 5rem 0;
+    padding: 1rem;
+}
+
+.ultimoTextoVoluntariado {
+    color: #335151;
+    font-weight: 500;
+    font-size: 31.25px;
+    line-height: 140%;
+    margin: 0;
+    text-align: center;
+}
+
+.ultimoTextoLinkVoluntariado {
+    color: #335151;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 140%;
+    margin: 0;
+    text-align: center;
 }
