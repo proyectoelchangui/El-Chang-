@@ -21,28 +21,32 @@
 .div {
     display: flex;
     justify-content: space-around;
-    margin: 0 2rem;
     padding: 1rem;
 }
-.divFotoDuraznos{
+
+.divFotoDuraznos {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .fotoDuraznos {
     height: 100%;
     width: 60%;
-    border-radius: 0px 20px;
+    border-radius: 0px 40px;
 }
 
-.divTextoAgroecologia{
+.divTextoAgroecologia {
     width: 50%;
 }
+
 .textoAgroecologia {
-    font-weight: 400;
     color: #F3FFF5;
     margin: 0;
     padding: 1rem;
-    font-size: 1.3rem;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: left;
 }

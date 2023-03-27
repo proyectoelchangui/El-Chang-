@@ -8,7 +8,7 @@ const QuinenesSomos = () => {
             <div className="container">
                 {/* primer foto y texto quienes somos */}
 
-                <div className="containerQuinesSomos">
+                <div className="primerContainerQuinesSomos">
                     <div className="divQuinesSomosFotoIzq">
                         <div className="divQuinesSomosFoto">
                             <img className="QuinesSomosFoto" src={"https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Qui%C3%A9nes%20somos%2FPapas.jpg?alt=media&token=0dfd6b17-4256-47fe-b0c5-754b26e03c9f"} alt="" />
@@ -17,8 +17,8 @@ const QuinenesSomos = () => {
                     
                     <div className="divQuinesSomosTextoDer">
                         <div className="divQuinesSomosTexto">
-                            <p className="QuinesSomosTexto">El Changüí, es un espacio agroecológico de experimentación, aprendizaje y difusión de saberes de la tierra que nos conectan con la pacha y con nuestras raíces.  </p>
-                            <p className="QuinesSomosTexto">También nos dedicamos a la obtención de productos agroecológicos que se extraen directamente de la tierra, utilizando todo tipo de prácticas que estén en armonía con el ambiente que nos rodea.</p>
+                            <p className="QuinesSomosTextoArribaFotoPapa">El Changüí, es un espacio agroecológico de experimentación, aprendizaje y difusión de saberes de la tierra que nos conectan con la pacha y con nuestras raíces.</p>
+                            <p className="QuinesSomosTextoAbajoFotoPapa">También nos dedicamos a la obtención de productos agroecológicos que se extraen directamente de la tierra, utilizando todo tipo de prácticas que estén en armonía con el ambiente que nos rodea.</p>
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ const QuinenesSomos = () => {
 
                     <div className="divQuinesSomosTextoDer">
                         <div className="divQuinesSomosTexto">
-                            <p className="QuinesSomosTexto">Este espacio,  arrancó a mediados del año 2017 y gracias al granito de arena de muchas personas, que difundiendo, participando de talleres, colaborando en la organización de eventos o voluntariando, ayudaron a que El Changüí crezca dentro de la comunidad y sea lo que es hoy.</p>
+                            <p className="QuinesSomosTextoFotoPoda">Este espacio,  arrancó a mediados del año 2017 y gracias al granito de arena de muchas personas, que difundiendo, participando de talleres, colaborando en la organización de eventos o voluntariando, ayudaron a que El Changüí crezca dentro de la comunidad y sea lo que es hoy.</p>
                         </div>
                     </div>
                 </div>
@@ -56,8 +56,8 @@ const QuinenesSomos = () => {
                         </div>
 
                         <div className="divQuinesSomosSoñadoresTextoDer">
-                            <div className="divQuinesSomosFoto">
-                                <img className="QuinesSomosSoñadoresFoto" src={"https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Qui%C3%A9nes%20somos%2FHuerta%20Esteban.jpg?alt=media&token=5ab7fdce-128a-4c1c-9f13-b1ae00febb44"} alt="" />
+                            <div className="divQuinesSomosFotoSoñadores">
+                                <img className="QuinesSomosSoñadoresFoto1" src={"https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Qui%C3%A9nes%20somos%2FHuerta%20Esteban.jpg?alt=media&token=5ab7fdce-128a-4c1c-9f13-b1ae00febb44"} alt="" />
                             </div>
                         </div>
 
@@ -74,8 +74,8 @@ const QuinenesSomos = () => {
                         </div>
 
                         <div className="divQuinesSomosSoñadoresTextoDer">
-                            <div className="divQuinesSomosFoto">
-                                <img className="QuinesSomosSoñadoresFoto" src={"https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Qui%C3%A9nes%20somos%2FNahuel%20fundador.jpg?alt=media&token=d912aaa9-9222-430e-bff5-4a5422787a67"} alt="" />
+                            <div className="divQuinesSomosFotoSoñadores">
+                                <img className="QuinesSomosSoñadoresFoto2" src={"https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Qui%C3%A9nes%20somos%2FNahuel%20fundador.jpg?alt=media&token=d912aaa9-9222-430e-bff5-4a5422787a67"} alt="" />
                             </div>
                         </div>
 
@@ -86,31 +86,30 @@ const QuinenesSomos = () => {
                 {/* 2 fotos izquierda y texto  */}
 
                 <div className="divQuinesSomos2">
-                    <div className="divQuinesSomosFotoDerecha">
-                        <div className="divQuinesSomosFoto">
+                    <div className="divQuinesSomosFotoIzquierda">
+                        <div className="divQuinesSomosFotoIzqSelfie">
                             <img className="QuinesSomosFotos" src={"https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Qui%C3%A9nes%20somos%2FLu%20y%20Jose.jpg?alt=media&token=20ff3f84-d9bc-4f9c-aa58-d108106e6bf2"} alt="" />
                         </div>
                     </div>
 
                     <div className="divQuinesSomosTextoDer">
                         <div className="divQuinesSomosTexto">
-                            <p className="QuinesSomosTexto">El Changüí, es un espacio agroecológico de experimentación, aprendizaje y difusión de saberes de la tierra que nos conectan con la pacha y con nuestras raíces.  </p>
-                            <p className="QuinesSomosTexto">También nos dedicamos a la obtención de productos agroecológicos que se extraen directamente de la tierra, utilizando todo tipo de prácticas que estén en armonía con el ambiente que nos rodea.</p>
+                            <p className="QuinesSomosTextoFotoPoda">Jose y Lu, personas muy queridas,  quienes fueron un gran motor para que el espacio siga creciendo y sumando objetivos a lograr:</p>
+                            <p className="QuinesSomosTextoFotoPoda">Producir alimentos agroecológicos para autoconsumo y vender el excedente a la comunidad.</p>
                         </div>
                     </div>
                 </div>
 
                 <div className="divQuinesSomos2">
-                    <div className="divQuinesSomosFotoDerecha">
-                        <div className="divQuinesSomosFoto">
+                    <div className="divQuinesSomosFotoIzquierda">
+                        <div className="divQuinesSomosFotoIzqSelfie">
                             <img className="QuinesSomosFotos" src={"https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Qui%C3%A9nes%20somos%2FIntercambio%20de%20saberes.jpg?alt=media&token=7721d485-45d9-456f-9ab2-6596a7846157"} alt="" />
                         </div>
                     </div>
 
                     <div className="divQuinesSomosTextoDer">
                         <div className="divQuinesSomosTexto">
-                            <p className="QuinesSomosTexto">El Changüí, es un espacio agroecológico de experimentación, aprendizaje y difusión de saberes de la tierra que nos conectan con la pacha y con nuestras raíces.  </p>
-                            <p className="QuinesSomosTexto">También nos dedicamos a la obtención de productos agroecológicos que se extraen directamente de la tierra, utilizando todo tipo de prácticas que estén en armonía con el ambiente que nos rodea.</p>
+                            <p className="QuinesSomosTextoAbajoFotoPapa">Una vez establecida la huerta y observando al ecosistema lo más estable posible, se inició el dictado de talleres, capacitaciones, mingas y hasta intercambios de semillas y saberes.</p>
                         </div>
                     </div>
                 </div>
@@ -121,13 +120,12 @@ const QuinenesSomos = () => {
 
                     <div className="divQuinesSomosTextoDer">
                         <div className="divQuinesSomosTexto">
-                            <p className="QuinesSomosTexto">El Changüí, es un espacio agroecológico de experimentación, aprendizaje y difusión de saberes de la tierra que nos conectan con la pacha y con nuestras raíces.  </p>
-                            <p className="QuinesSomosTexto">También nos dedicamos a la obtención de productos agroecológicos que se extraen directamente de la tierra, utilizando todo tipo de prácticas que estén en armonía con el ambiente que nos rodea.</p>
+                            <p className="QuinesSomosTextoAbajoFotoPapa">A partir del 2022 decidimos avanzar un paso más e integrar a la familia del Changüí animalitos de granja: gallinas, patos, ovejas y muchos otros, con el fin de aprovechar principalmente sus heces para brindarle estructura y nutrientes al suelo.</p>
                         </div>
                     </div>
 
-                    <div className="divQuinesSomosFotoDerecha">
-                        <div className="divQuinesSomosFoto">
+                    <div className="divQuinesSomosFotoIzquierda">
+                        <div className="divQuinesSomosFotoDerecha">
                             <img className="QuinesSomosFotoDer" src={"https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Qui%C3%A9nes%20somos%2FOveja.jpg?alt=media&token=b268736c-a5c7-4062-a6b3-63b397a790e7"} alt="" />
                         </div>
                     </div>
@@ -138,12 +136,11 @@ const QuinenesSomos = () => {
 
                     <div className="divQuinesSomosTextoDer">
                         <div className="divQuinesSomosTexto">
-                            <p className="QuinesSomosTexto">El Changüí, es un espacio agroecológico de experimentación, aprendizaje y difusión de saberes de la tierra que nos conectan con la pacha y con nuestras raíces.  </p>
-                            <p className="QuinesSomosTexto">También nos dedicamos a la obtención de productos agroecológicos que se extraen directamente de la tierra, utilizando todo tipo de prácticas que estén en armonía con el ambiente que nos rodea.</p>
+                            <p className="QuinesSomosTextoAbajoFotoPapa">Esta meta no se hubiera podido lograr sin la ayuda de muchas personas, en especial Juan y Cristian, que eligieron acompañarnos en este lindo desafío.</p>
                         </div>
                     </div>
-                    <div className="divQuinesSomosFotoDerecha">
-                        <div className="divQuinesSomosFoto">
+                    <div className="divQuinesSomosFotoIzquierda">
+                        <div className="divQuinesSomosFotoDerecha">
                             <img className="QuinesSomosFotoDer" src={"https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Qui%C3%A9nes%20somos%2FJuan.jpeg?alt=media&token=61af9d3c-697e-4493-bf9b-afeaad39399d"} alt="" />
                         </div>
                     </div>
@@ -158,7 +155,7 @@ const QuinenesSomos = () => {
 
                     </div>
                     <div className="divQuinesSomosAnimalesTexto">
-                        <p className="QuinesSomosAnimalesTexto">Este es nuestro espacio, donde animales y plantas tratan de vivir en completa armonía.</p>
+                        <p className="QuinesSomosAnimalesTexto ">Este es nuestro espacio, <br /> donde animales y plantas tratan de <br /> vivir en completa armonía.</p>
 
                     </div>
                     <div className="divQuinesSomosAnimales">
@@ -169,8 +166,8 @@ const QuinenesSomos = () => {
 
                 {/* texto  acompañanos */}
 
-                <div className="divQuinesSomosTitulo">
-                    <h2 className="quinesSomosTitulos">El Changüí, trabaja todos los días para continuar creciendo, acompañanos...</h2>
+                <div className="divQuinesSomosTituloAcompañanos">
+                    <h2 className="quinesSomosTituloAcompañanos">El Changüí, trabaja todos los días para continuar creciendo, acompañanos...</h2>
                 </div>
 
             </div>
