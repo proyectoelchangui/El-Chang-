@@ -1,18 +1,14 @@
 .divNaturaleza {
     display: flex;
-    height: 20rem;
+    height: 90vh;
     margin-bottom: 1rem;
-
 }
-
 .divTexto {
     background: rgba(210, 213, 184, 0.3);
     width: 50%;
     height: 90%;
-    
-
+    text-align: center;
 }
-
 .texto {
     display: flex;
     height: 100%;
@@ -21,8 +17,6 @@
     color: #335151;
     font-weight: 600;
     font-size: 39.06px;
-    margin: 0px;
-
 }
 
 .divFoto {
@@ -33,4 +27,5 @@
     height: 100%;
     width: 100%;
     border-radius: 0px 0px 0px 20px;
+    object-fit: cover;    
 }

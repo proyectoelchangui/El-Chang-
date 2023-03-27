@@ -15,8 +15,8 @@ const Template = () => {
     }, [titulo]);
     return(
         <>
+            <TemplateCabezal titulo={'Qué hacemos'} img={img} position={'center'} />
             <div className="container">
-                <TemplateCabezal titulo={'Qué hacemos'} img={img} />
                 <section className="contenedorTemplate">
                     <div className="contenedorColor">
                         <div className="templateHeader">

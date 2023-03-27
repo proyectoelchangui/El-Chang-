@@ -5,9 +5,7 @@
     justify-items: center;
     flex-wrap: wrap;
 }
-
 .fotosDatosTarjeta {
-    width: 50%;
     height: 25rem;
     position: relative;
 }
@@ -30,14 +28,12 @@
     padding: 1rem;
     color: rgba(210, 213, 184, 1);
 }
-
 .fotosDatosFoto {
     border-radius: 24px;
     height: 368px;
     position: relative;
-
+    cursor: pointer;
 }
-
 .fotosDatosDivTexto {
     background: linear-gradient(0deg,rgba(0,0,0,.3),rgba(0,0,0,.3));
     border-radius: 24px;
@@ -64,18 +60,6 @@
     text-align: center;
     width: 100%;
 }
-
-
-
-
-.prueba{
-
-}
-
-
-
-
-
 .divEventoprueba{
     background: rgba(51, 81, 81, 1);
     position: absolute;

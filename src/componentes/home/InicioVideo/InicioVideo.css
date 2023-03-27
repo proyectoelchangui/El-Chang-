@@ -1,16 +1,12 @@
 .InicioVideoTexto {
     font-weight: 600;
     color: #335151;
-    margin: 0px;
     padding: 1rem;
 }
-
 .divInicioVideo {
     margin: 2rem 10%;
     border-radius: 0px 20px;
-
 }
-
 .inicioVideo {
     width: 100%;
     border-radius: 0px 20px;

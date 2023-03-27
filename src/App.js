@@ -1,4 +1,4 @@
-import './App.css';
+import './index.css';
 import Header from './componentes/Header/Header';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './componentes/home/Home';
@@ -9,15 +9,14 @@ import Template from './componentes/page/que-hacemos/Template';
 import Ecogranja from './componentes/page/ecogranja/Ecogranja';
 import Voluntariado from './componentes/page/voluntariado/Voluntariado';
 import Contactanos from './componentes/page/contactanos/Contactanos';
+import './responsive.css';
 
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-
         <Header></Header>
-        
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/quienes-somos' element={<QuinenesSomos />} />
@@ -28,12 +27,8 @@ function App() {
           <Route path='/contactanos' element={<Contactanos />} />
           <Route path="*" element={<p>error 404</p>} />
         </Routes>
-
         <Footer></Footer>
-
       </BrowserRouter>
-
-
     </div>
   );
 }
