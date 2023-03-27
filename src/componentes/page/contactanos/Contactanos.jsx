@@ -5,10 +5,8 @@ import TemplateCabezal from "../cabezal-template/TemplateCabezal";
 const Contactanos = () => {
     return (
         <>
+            <TemplateCabezal titulo={'Contactanos'} img={'https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/contactanos%2FIngreso.jpg?alt=media&token=21649a07-b11f-4fe3-ad8d-01311a4eda35'} position={'right'} />
             <div className="container">
-
-                <TemplateCabezal titulo={'Contactanos'} img={'https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/contactanos%2FIngreso.jpg?alt=media&token=21649a07-b11f-4fe3-ad8d-01311a4eda35'} />
-
                 <div className='divTextoContactanos'>
                     <p className='textoContactanos'>¿Tenés alguna pregunta, sugerencia, querés adquirir algunos de nuestros <br /> productos o te interesan las propuestas de Voluntariado y Ecogranja?</p>
                     <p className='textoContactanos'>No dudés en contactarnos</p>
