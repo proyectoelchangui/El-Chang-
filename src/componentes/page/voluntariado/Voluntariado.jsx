@@ -7,6 +7,7 @@ const Voluntariado = () => {
         <>
             <TemplateCabezal titulo={'Voluntariado'} img={'https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Voluntariado%2Fgrupo.jpg?alt=media&token=9c873cbb-ae50-4b32-ab23-21d5ac84bcea'} position={'center'} />
             <div className="container">
+                
                 {/* primer foto y texto Voluntariado  */}
 
                 <div className="containerColorVoluntariado">

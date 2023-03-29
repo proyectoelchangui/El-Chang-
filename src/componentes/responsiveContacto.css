@@ -1,0 +1,84 @@
+@media only screen and (max-width: 991px) {
+
+    /*CONTACTANOS*/
+
+    .divGridRedesContactanos {
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(2, 50%);
+    }
+
+    .divRedesContactanos {
+        margin: 1.5rem 1rem;
+        padding: 1.5rem 0.5rem;
+        display: block;
+    }
+
+    .textoRedesContactanos {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    /*CONTACTANOS*/
+
+    .textoContactanos {
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 140%;
+    }
+
+    .textoMapaUbicacionContactanos {
+        font-size: 16px;
+        line-height: 90%;
+        display: block;
+    }
+
+}
+
+@media (min-device-width: 100px) and (max-device-width: 425px) {
+
+    /*CONTACTANOS*/
+
+    .textoContactanos {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 130%;
+    }
+
+    .containerRedesContactanos {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fondoFotoRedesContactanos {
+        height: 60rem;
+    }
+
+    .fondoColorRedesContactanos {
+        width: 70%;
+        top: 150px;
+        border-radius: 0px 40px;
+    }
+
+    .divGridRedesContactanos {
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(4, 25%);
+    }
+
+    .divRedesContactanos {
+        margin: 1.5rem 1rem;
+        padding: 0.5rem;
+    }
+
+    .mapaContactanos {
+        height: 400px;
+    }
+
+    .textoMapaUbicacionContactanos {
+        font-size: 14px;
+        line-height: 135%;
+    }
+
+}
