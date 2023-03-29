@@ -87,25 +87,30 @@ const InicioFotosDatos = () => {
             <div className='text-center'>
                 <h2 className='InicioVideoTexto'>Datos de interés</h2>
             </div>
-            <div className='gridFotosDatos row'>
+            <section className="queHacemosFlexBox row">
                 {
                     arrayModal.map(item =>(
                         <div className="col-6 mb-4" key={item.id} onClick={()=> {handleOpenModal(item)}} data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <div className="fotosDatosFoto" style={{ backgroundImage: `url(${item.img})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
-                                <div className='fotosDatosDivTexto'>
-                                    <div className='fotosDatosTexto' dangerouslySetInnerHTML={{ __html: item.titulo }}></div>
+                            <div className="boxQueHacemos" style={{ backgroundImage: `url(${item.img})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
+                                <div className="fondoBox">
+                                    <div className="TextoBox" dangerouslySetInnerHTML={{ __html: item.titulo }}></div>
+                                    <div className="masBox">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-plus-lg" viewBox="0 0 16 16">
+                                            <path fillRule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                                        </svg>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     ))
                 }
-            </div>
+            </section>
             <div className="modal fade" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div className="modal-dialog modal-dialog-centered">
                     <div className="modal-content">
                     <div className="modal-header">
                         <h5 className="modal-title w-100 text-center" id="exampleModalLabel" dangerouslySetInnerHTML={{ __html: modal.titulo }}></h5>
-                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <button type="button" className="btn-cerrar" data-bs-dismiss="modal" aria-label="Close">x</button>
                     </div>
                     <div className="modal-body" dangerouslySetInnerHTML={{ __html: modal.descripcion }}>
                     </div>

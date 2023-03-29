@@ -78,3 +78,18 @@
     z-index: 1000;
     border-radius: 8px;
 }
+/*modal*/
+#exampleModal .modal-content {
+    background: #335151;
+    color: #FAFFFB;
+}
+#exampleModal .btn {
+    background: #FAFFFB;
+    color: #335151;
+}
+#exampleModal .btn-cerrar {
+    background: inherit;
+    color: #FAFFFB;
+    border: none;
+    font-size: 1.7em;
+}

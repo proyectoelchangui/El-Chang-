@@ -9,6 +9,7 @@
     height: 368px;
     border-radius: 24px;
     position: relative;
+    cursor: pointer;
 }
 .fondoBox {
     position: absolute;
