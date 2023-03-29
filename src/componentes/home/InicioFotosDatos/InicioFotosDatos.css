@@ -79,15 +79,15 @@
     border-radius: 8px;
 }
 /*modal*/
-#exampleModal .modal-content {
+.modal-content {
     background: #335151;
     color: #FAFFFB;
 }
-#exampleModal .btn {
+.btn-cerrar-btn {
     background: #FAFFFB;
     color: #335151;
 }
-#exampleModal .btn-cerrar {
+.btn-cerrar {
     background: inherit;
     color: #FAFFFB;
     border: none;

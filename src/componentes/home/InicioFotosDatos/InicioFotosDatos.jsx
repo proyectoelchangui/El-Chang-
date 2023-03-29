@@ -90,7 +90,7 @@ const InicioFotosDatos = () => {
             <section className="queHacemosFlexBox row">
                 {
                     arrayModal.map(item =>(
-                        <div className="col-6 mb-4" key={item.id} onClick={()=> {handleOpenModal(item)}} data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div className="col-md-6 col-sm-6 col-12 mb-4" key={item.id} onClick={()=> {handleOpenModal(item)}} data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <div className="boxQueHacemos" style={{ backgroundImage: `url(${item.img})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
                                 <div className="fondoBox">
                                     <div className="TextoBox" dangerouslySetInnerHTML={{ __html: item.titulo }}></div>
@@ -115,7 +115,7 @@ const InicioFotosDatos = () => {
                     <div className="modal-body" dangerouslySetInnerHTML={{ __html: modal.descripcion }}>
                     </div>
                     <div className="modal-footer">
-                        <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" className="btn btn-secondary btn-cerrar-btn" data-bs-dismiss="modal">Cerrar</button>
                     </div>
                     </div>
                 </div>
