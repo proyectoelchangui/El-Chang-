@@ -47,13 +47,13 @@ const Ecogranja = () => {
         <section className="sectionEcogranja1">
             <div className="container">
                 <div className="ecogranjaDescripcion row">
-                    <div className="col-6">
+                    <div className="col-md-6 col-sm-6 col-12">
                         <div className="imgBoxEcogranja">
                         </div>
                         <div className="imgBoxEcogranja2">
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-md-6 col-sm-6 col-12">
                         <div className="text-start boxTextDescripcion">
                             <h2>La Ecogranja es un instrumento transversal en el marco de la innovación educativa y de la educación ambiental.</h2>
                             <p>Permite poner en práctica un aprendizaje activo y cooperativo basado en la resolución planificada de problemas, así como un eficaz desarrollo de actitudes y valores conducentes a un comportamiento más comprometido con la conservación y mejora del entorno, y la utilización sostenible de los recursos ambientales.</p>
@@ -69,7 +69,7 @@ const Ecogranja = () => {
             <div className="container">
                 <h2>Objetivos generales</h2>
                 <div className="bloqueObjetivos row">
-                    <div className="col-md-6 text-start">
+                    <div className="col-md-6 col-sm-6 col-12 text-start">
                         <div className="bloqueObjetivosDescripcion">
                             <h3>Desde un enfoque técnico</h3>
                             <ul>
@@ -80,14 +80,14 @@ const Ecogranja = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-md-6 col-sm-6 col-12">
                         <div className="imgContBLoqueObjetivos">
-                            <div className="imgContBloqueObjetivos text-center" style={{backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Granja%20educativa%2FNi%C3%B1os%20y%20gallinas.jpg?alt=media&token=031ae23f-0caf-473a-87f2-38dc9db88466')`}}></div>
+                            <div className="imgContBloqueObjetivosImg text-center" style={{backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Granja%20educativa%2FNi%C3%B1os%20y%20gallinas.jpg?alt=media&token=031ae23f-0caf-473a-87f2-38dc9db88466')`}}></div>
                         </div>
                     </div>
                 </div>
                 <div className="bloqueObjetivos row">
-                    <div className="col-md-6 text-start">
+                    <div className="col-md-6 col-sm-6 col-12 text-start">
                         <div className="bloqueObjetivosDescripcion">
                             <h3>Desde un enfoque pedagógico</h3>
                             <ul>
@@ -95,14 +95,14 @@ const Ecogranja = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-md-6 col-sm-6 col-12">
                         <div className="imgContBLoqueObjetivos">
-                            <div className="imgContBloqueObjetivos text-center" style={{backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Granja%20educativa%2FJovenes%20en%20la%20tierra.jpg?alt=media&token=44c369d9-3cd0-4797-a38a-72a186edcc97')`}}></div>
+                            <div className="imgContBloqueObjetivosImg text-center" style={{backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Granja%20educativa%2FJovenes%20en%20la%20tierra.jpg?alt=media&token=44c369d9-3cd0-4797-a38a-72a186edcc97')`}}></div>
                         </div>
                     </div>
                 </div>
                 <div className="bloqueObjetivos row">
-                    <div className="col-md-6 text-start">
+                    <div className="col-md-6 col-sm-6 col-12 text-start">
                         <div className="bloqueObjetivosDescripcion">
                             <h3>Desde un enfoque recreativo</h3>
                             <ul>
@@ -110,9 +110,9 @@ const Ecogranja = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-md-6 col-sm-6 col-12">
                         <div className="imgContBLoqueObjetivos">
-                            <div className="imgContBloqueObjetivos text-center" style={{backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Granja%20educativa%2FNi%C3%B1os%20merendando.jpg?alt=media&token=891ec70a-337e-4090-9aad-ca133408b443')`}}></div>
+                            <div className="imgContBloqueObjetivosImg text-center" style={{backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Granja%20educativa%2FNi%C3%B1os%20merendando.jpg?alt=media&token=891ec70a-337e-4090-9aad-ca133408b443')`}}></div>
                         </div>
                     </div>
                 </div>
@@ -122,12 +122,12 @@ const Ecogranja = () => {
             <div className="container">
                 <h2>Objetivos específicos</h2>
                 <div className="bloqueObjetivos row">
-                    <div className="col-6">
+                    <div className="col-md-6 col-sm-6 col-12">
                         <div className="imgContBLoqueObjetivos" style={{borderRadius: '0px 40px'}}>
-                            <div className="imgContBloqueObjetivos text-center" style={{backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Granja%20educativa%2FNi%C3%B1os%20y%20patos.jpg?alt=media&token=9419439b-7164-4cdf-bb56-c8c8f7e9c4c6')`}}></div>
+                            <div className="imgContBloqueObjetivosImg text-center" style={{backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Granja%20educativa%2FNi%C3%B1os%20y%20patos.jpg?alt=media&token=9419439b-7164-4cdf-bb56-c8c8f7e9c4c6')`}}></div>
                         </div>
                     </div>
-                    <div className="col-md-6 text-start">
+                    <div className="col-md-6 col-sm-6 col-12 text-start">
                         <div className="bloqueObjetivosDescripcion">
                             <ul>
                                 <li><b>Establecer lazos afectivos con el medio</b>, desarrollando la capacidad de disfrutar del entorno, compatibilizando ese disfrute con la conservación y mantenimiento de equilibrio en los diferentes usos. </li>
@@ -137,12 +137,12 @@ const Ecogranja = () => {
                     </div>
                 </div>
                 <div className="bloqueObjetivos row">
-                    <div className="col-6">
+                    <div className="col-md-6 col-sm-6 col-12">
                         <div className="imgContBLoqueObjetivos" style={{borderRadius: '0px 40px'}}>
-                            <div className="imgContBloqueObjetivos text-center" style={{backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Granja%20educativa%2FZapallo.jpg?alt=media&token=d73c1276-7716-461c-8962-8c4c79d26f0a')`}}></div>
+                            <div className="imgContBloqueObjetivosImg text-center" style={{backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Granja%20educativa%2FZapallo.jpg?alt=media&token=d73c1276-7716-461c-8962-8c4c79d26f0a')`}}></div>
                         </div>
                     </div>
-                    <div className="col-md-6 text-start">
+                    <div className="col-md-6 col-sm-6 col-12 text-start">
                         <div className="bloqueObjetivosDescripcion">
                             <ul>
                                 <li><b>Relacionar</b> los diferentes alimentos con las estaciones del año según el calendario de siembra.</li>
@@ -152,12 +152,12 @@ const Ecogranja = () => {
                     </div>
                 </div>
                 <div className="bloqueObjetivos row">
-                    <div className="col-6">
+                    <div className="col-md-6 col-sm-6 col-12">
                         <div className="imgContBLoqueObjetivos" style={{borderRadius: '0px 40px'}}>
-                            <div className="imgContBloqueObjetivos text-center" style={{backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Granja%20educativa%2FFlor%20frente.jpg?alt=media&token=da437464-6e8c-41cb-9282-95160feb4354')`}}></div>
+                            <div className="imgContBloqueObjetivosImg text-center" style={{backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Granja%20educativa%2FFlor%20frente.jpg?alt=media&token=da437464-6e8c-41cb-9282-95160feb4354')`}}></div>
                         </div>
                     </div>
-                    <div className="col-md-6 text-start">
+                    <div className="col-md-6 col-sm-6 col-12 text-start">
                         <div className="bloqueObjetivosDescripcion">
                             <ul>
                                 <li><b>Alcanzar mayor conocimiento del entorno natural</b>, sus cuidados y formas de preservación, desarrollando comportamientos y valores para ello, que puedan transferirse a su vida diaria.</li>

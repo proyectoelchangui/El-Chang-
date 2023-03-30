@@ -33,7 +33,7 @@ const Template = () => {
                         <div className="containerGaleriTemplate row">
                             {
                                 datos.galeria?.map((img, index) => (
-                                    <div className="col-4 mb-4" key={index}>
+                                    <div className="col-md-4 col-sm-6 col-6 mb-4" key={index}>
                                         <div className="templateGaleriaBox" style={{backgroundImage: `url('${img.url}')`, backgroundSize: 'cover', backgroundPosition: 'center',backgroundRepeat: 'no-repeat'}}>
                                             <div className="fondoBox"></div>
                                             <p>{img.nombre}</p>
@@ -41,7 +41,6 @@ const Template = () => {
                                     </div>
                                 ))
                             }
-                            
                         </div>
                         <div className="templateDescripcion1 text-center" dangerouslySetInnerHTML={{ __html: datos.descripcion2 }}>
                             
