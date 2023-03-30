@@ -7,7 +7,7 @@ const Voluntariado = () => {
         <>
             <TemplateCabezal titulo={'Voluntariado'} img={'https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Voluntariado%2Fgrupo.jpg?alt=media&token=9c873cbb-ae50-4b32-ab23-21d5ac84bcea'} position={'center'} />
             <div className="container">
-                
+
                 {/* primer foto y texto Voluntariado  */}
 
                 <div className="containerColorVoluntariado">
@@ -64,12 +64,12 @@ const Voluntariado = () => {
                     <div className="divFlexPropuestaVoluntariado">
                         <div className="divTextoIzqPropuestaVoluntariado">
                             <h2 className="TextoIzqPropuestaVoluntariado">La persona decide convivir en El Changüí por un plazo no menor a 10 días.</h2>
-                            <p>Se intercambian 5 horas de trabajo (lunes a sábado) a cambio de :</p>
+                            <p className="ListaPropuestaVoluntariado">Se intercambian 5 horas de trabajo (lunes a sábado) a cambio de :</p>
                             <ul className='divListaPropuestaVoluntariado'>
                                 <li className='ListaPropuestaVoluntariado'>Capacitaciones de temas referidos al Espacio Agroecológico.</li>
                                 <li className='ListaPropuestaVoluntariado'>Las 4 comidas principales.</li>
                                 <li className='ListaPropuestaVoluntariado'>Alojamiento en casa.</li>
-                                <p> Si no hubiera disponibilidad, se brinda un espacio para instalar carpa.</p>
+                                <p className="ListaLetraChicaPropuestaVoluntariado"> Si no hubiera disponibilidad, se brinda un espacio para instalar carpa.</p>
                                 <li className='ListaPropuestaVoluntariado'>1 día libre (domingo).</li>
                             </ul>
                         </div>
@@ -107,11 +107,11 @@ const Voluntariado = () => {
                 {/* titulo y texto ¿Qué actividades realizarás?  */}
 
                 <div>
-                    <h2 className="tituloImportanteVoluntariado">¿Qué actividades realizarás?</h2>
+                    <h2 className="tituloActividadVoluntariado">¿Qué actividades realizarás?</h2>
                 </div>
 
                 <div className="divTextoVoluntariado">
-                    <h2 className="TextoVoluntariado">Las mismas dependen de la estación del año, y las prioridades que requiera El Changüí</h2>
+                    <h2 className="TextoActividadVoluntariado">Las mismas dependen de la estación del año, y las prioridades que requiera El Changüí</h2>
                 </div>
 
                 {/* foto Plantines  */}
