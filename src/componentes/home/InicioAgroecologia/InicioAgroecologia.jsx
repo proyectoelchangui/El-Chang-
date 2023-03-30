@@ -1,5 +1,4 @@
 import './InicioAgroecologia.css'
-import Duraznos from '../../../imagenes/imagenesInicio/Duraznos.jpg'
 
 const InicioAgroecologia = () => {
     return (
@@ -10,7 +9,7 @@ const InicioAgroecologia = () => {
                 </div>
                 <div className='div'>
                     <div className='divFotoDuraznos'>
-                        <img className='fotoDuraznos' src={Duraznos} alt="" />
+                        <img className='fotoDuraznos' src="https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Inicio%2FDuraznos.jpg?alt=media&token=c0dfb429-5b89-4951-ad4f-032f5031b01d" alt="" />
                     </div>
                     <div className='divTextoAgroecologia'>
                         <p className='textoAgroecologia'>La agroecología es un enfoque holístico e integrado que aplica simultáneamente conceptos y principios ecológicos y sociales al diseño y la gestión de sistemas agrícolas y alimentarios sostenibles.</p>

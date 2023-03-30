@@ -9,7 +9,6 @@ const InicioFotosDatos = () => {
     const handleOpenModal = (item) => {
         setModal(item)
     }
-    console.log(modal);
     const arrayModal = [
         {
             id: 1,
@@ -71,7 +70,7 @@ const InicioFotosDatos = () => {
         },
         {
             id: 6,
-            titulo: 'Cómo tu participación activa <br /> puede ayudar a la preservación <br /> y protección del planeta.',
+            titulo: 'Cómo tu participación activa puede hacer la diferencia',
             img: 'https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Inicio%2FParticipaci%C3%B3n%20activa.jpg?alt=media&token=cf80be23-8c7e-4d60-bd77-c3899ab14ae7',
             descripcion: `
                 <ul className='divEventoTexto'>

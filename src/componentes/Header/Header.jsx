@@ -12,7 +12,7 @@ const Header = () => {
             <header>
                 <div className="container divHeader">
                     <div className='divLogo'>
-                        <Link to="/"><img src="https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Logo%20sin%20bajada.png?alt=media&token=79c62982-232b-4f83-9620-ef4b6fc8fe83" alt="" width={"150px"} /></Link>
+                        <Link to="/" onClick={()=> {handelMenuMobile(false)}}><img src="https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Logo%20sin%20bajada.png?alt=media&token=79c62982-232b-4f83-9620-ef4b6fc8fe83" alt="" width={"150px"} /></Link>
                     </div>
                     <nav>
                         <div className="menuMobile">

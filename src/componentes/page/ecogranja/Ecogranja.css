@@ -9,7 +9,7 @@
     padding: 50px;
 }
 .imgBoxEcogranja {
-    background: url("https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Granja%20educativa%2FNi%C3%B1os%20saludando.jpg?alt=media&token=f4867f03-7320-4457-ac12-238e36d700cf");
+    background: url("https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Granja%20educativa%2FNi%C3%B1os%20saludando.jpg?alt=media&token=f4867f03-7320-4457-ac12-238e36d700cf") center;
     background-size: cover;
     filter: drop-shadow(0px 254px 101px rgba(0, 0, 0, 0.01)) drop-shadow(0px 143px 86px rgba(0, 0, 0, 0.05)) drop-shadow(0px 63px 63px rgba(0, 0, 0, 0.09)) drop-shadow(0px 16px 35px rgba(0, 0, 0, 0.1)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.1));
     border-radius: 40px 0px;
@@ -20,7 +20,7 @@
     margin-bottom: 50px;
 }
 .imgBoxEcogranja2 {
-    background: url("https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Granja%20educativa%2FGrupo%20jovenes.jpg?alt=media&token=85cee06d-6d4e-41ca-af47-fb241f6ca384");
+    background: url("https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Granja%20educativa%2FGrupo%20jovenes.jpg?alt=media&token=85cee06d-6d4e-41ca-af47-fb241f6ca384") center;
     background-size: cover;
     filter: drop-shadow(0px 254px 101px rgba(0, 0, 0, 0.01)) drop-shadow(0px 143px 86px rgba(0, 0, 0, 0.05)) drop-shadow(0px 63px 63px rgba(0, 0, 0, 0.09)) drop-shadow(0px 16px 35px rgba(0, 0, 0, 0.1)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.1));
     border-radius: 40px 0px;
@@ -42,6 +42,9 @@
     font-size: 20px;
     font-weight: 300;
     margin-bottom: 50px;
+}
+.boxTextDescripcion h3 {
+    font-size: 20px;
 }
 .ecogranjaObjetivos {
     margin-bottom: 100px;
@@ -84,12 +87,13 @@
     justify-content: center;
     align-items: center;
 }
-.imgContBloqueObjetivos {
+.imgContBloqueObjetivosImg {
     width: 440px;
     height: 352px;   
     filter: drop-shadow(0px 254px 101px rgba(0, 0, 0, 0.01)) drop-shadow(0px 143px 86px rgba(0, 0, 0, 0.05)) drop-shadow(0px 63px 63px rgba(0, 0, 0, 0.09)) drop-shadow(0px 16px 35px rgba(0, 0, 0, 0.1)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.1));
     border-radius: 40px 0px;
     background-size: cover;
+    background-position: center;
 }
 .ecogranjasEtapas {
     margin-bottom: 100px;
