@@ -12,6 +12,22 @@
         font-size: 0.8em;
         margin: 0 5px;
     }
+     /*CONTACTANOS*/
+
+     .divGridRedesContactanos {
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(2, 50%);
+    }
+
+    .divRedesContactanos {
+        margin: 1.5rem 1rem;
+        padding: 1.5rem 0.5rem;
+        display: block;
+    }
+
+    .textoRedesContactanos {
+        display: none;
+    }
 }
 
 /**********
@@ -24,12 +40,10 @@
         display: block;
         height: 67px;
     }
-
     .menuMobile {
         display: block;
         color: #F3FFF5;
     }
-
     .divNavbar {
         position: fixed;
         left: 0;
@@ -40,11 +54,9 @@
         display: none;
         z-index: 9999999;
     }
-
     .active {
         display: block !important;
     }
-
     .divNavbar li {
         width: 100%;
         margin: 0;
@@ -52,7 +64,11 @@
         padding: 20px;
         font-size: 16px;
     }
-
+    /*cabezal*/
+    .texto {
+        font-size: 31.25px;
+        line-height: 40px;
+    }
     /*FOOTER*/
     .DivFooter {
         text-align: center !important;
@@ -172,6 +188,123 @@
         width: 15px;
         height: 15px;
     }
+    /*CONTACTANOS*/
+
+    .textoContactanos {
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 140%;
+    }
+
+    .textoMapaUbicacionContactanos {
+        font-size: 16px;
+        line-height: 90%;
+        display: block;
+    }
+    /*quienes somos*/
+    .primerContainerQuinesSomos, .containerQuinesSomos {
+        padding: 0;
+        margin: 50px 0px;
+    }
+    .QuinesSomosFoto{
+        border-radius: 0px 40px;
+    }
+    .divQuinesSomosTexto p {
+        font-size: 2vw;
+    }
+    .quinesSomosTitulo,.quinesSomosTituloAcompañanos {
+        font-size: 4vw;
+    }
+    /*que hacemos template*/
+    .contenedorTemplate {
+        padding: 0px;
+    }
+    .contenedorColor {
+        padding: 20px;
+    }
+    .templateHeader a {
+        width: 32px;
+        height: 32px;
+    }
+    .templateHeader h1 {
+        font-size: 2.8vw;
+        width: 100%;
+    }
+    .templateTextNormal {
+        font-size: 2.2vw;
+    }
+    .templateTextSmall {
+        font-size: 2.1vw;
+    }
+    .templateDescripcion1 p {
+        margin-bottom: 20px;
+    }
+    .listaTemplate {
+        font-size: 1.8vw;
+        margin-bottom: 20px;
+    }
+    .containerGaleriTemplate {
+        flex-wrap: wrap;
+        left: 0;
+        width: 100%;
+        margin: 0;
+    }
+    .templateGaleriaBox {
+        height: 176px;
+    }
+    .templateGaleriaBox p {
+        font-size: 2vw  ;
+    }
+    /*ecogranjas*/
+    .sectionEcogranja1 {
+        background: #335151;
+        border-radius: 4px; 
+    }
+    .imgBoxEcogranja, .imgBoxEcogranja2 {
+        width: 100%;
+        height: 338px;
+    }
+    .boxTextDescripcion h2 {
+        font-size: 2vw;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    .boxTextDescripcion p, .boxTextDescripcion h3 {
+        font-size: 1.7vw;
+        margin-bottom: 20px;
+    }
+    .ecogranjaObjetivos h2 {
+        font-size: 4vw;
+    }
+    .bloqueObjetivosDescripcion {
+        width: 100%;
+    }
+    .bloqueObjetivosDescripcion h3 {
+        font-size: 2.5vw;
+    }
+    .bloqueObjetivosDescripcion ul {
+        margin-top: 20px;
+    }
+    .bloqueObjetivosDescripcion ul li {
+        font-size: 1.5vw;
+        font-weight: 500;
+        font-style: italic;
+        line-height: 18px;
+        margin-bottom: 20px;
+    }
+    .imgContBLoqueObjetivos {
+        width: 100%;
+    }
+    .imgContBloqueObjetivosImg {
+        width: 80%;
+    }
+    .etapasHeader, .actividadesHeader {
+        font-size: 2.5vw;
+    }
+    .etapasBody li, .actividadesBody li {
+        font-size: 2vw;
+        margin-bottom: 20px;
+    }
 
 }
 
@@ -179,16 +312,45 @@
 425px
 **********/
 @media (min-device-width: 100px) and (max-device-width: 425px) {
-
+    /*cabezal*/
+    .texto {
+        font-weight: 400;
+        font-size: 5vw;
+        line-height: 32px;
+    }
     /*FOOTER*/
-
     .sloganFooter,
     .copyFooter {
         padding: 0 20px;
     }
+    /*inicio*/
+    .divTitulo {
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .Titulo, .InicioVideoTexto, .InicioVideoTexto {
+        font-size: 6vw;
+    }
+    .div {
+        flex-direction: column-reverse;
+    }
+    .divFotoDuraznos {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .divTextoAgroecologia {
+        width: 100%;
+    }
+    .divTextoAgroecologia p {
+        font-size: 4vw;
+        font-weight: 300;
+    }
     /*carousel*/
     .slick-next {
         right: 0;
+    }
+    .carousel h2 {
+        font-size: 6vw;
     }
     /*que hacemos*/
     .queHacemosFlexBox {
@@ -210,5 +372,158 @@
     .masBox svg {
         width: 15px;
         height: 15px;
+    }
+
+    /*CONTACTANOS*/
+
+    .textoContactanos {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 130%;
+    }
+
+    .containerRedesContactanos {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fondoFotoRedesContactanos {
+        height: 60rem;
+    }
+
+    .fondoColorRedesContactanos {
+        width: 70%;
+        top: 150px;
+        border-radius: 0px 40px;
+    }
+
+    .divGridRedesContactanos {
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(4, 25%);
+    }
+
+    .divRedesContactanos {
+        margin: 1.5rem 1rem;
+        padding: 0.5rem;
+    }
+
+    .mapaContactanos {
+        height: 400px;
+    }
+
+    .textoMapaUbicacionContactanos {
+        font-size: 14px;
+        line-height: 135%;
+    }
+    /* quienes somos */
+    .primerContainerQuinesSomos, .containerQuinesSomos {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: start;
+        height: auto;
+    }
+    .divQuinesSomosFotoIzq, .divQuinesSomosTextoDer {
+        width: 100%;
+    }
+    .divQuinesSomosTexto {
+        padding: 0;
+    }
+    .divQuinesSomosTexto p {
+        font-size: 4vw;
+    }
+    .divQuinesSomosFoto {
+        padding: 15px 0px;
+    }
+    .divQuinesSomosTituloAcompañanos {
+        margin: 50px 0px;
+        padding: 0;
+    }
+    .quinesSomosTitulo,.quinesSomosTituloAcompañanos {
+        font-size: 6vw;
+    }
+    .divQuinesSomosSoñadores, .divQuinesSomos2 , .containerQuinesSomosAnimales {
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .divQuinesSomos2, .divQuinesSomosAnimalesTexto {
+        margin: 20px 0px;
+    }
+    .FotoIzqQuinesSomosAnimales, .FotoDerQuinesSomosAnimales {
+        height: auto;
+    }
+    .divQuinesSomosSoñadoresTextoIzq, .divQuinesSomosSoñadoresTextoDer, .divQuinesSomosFotoIzquierda, .divQuinesSomosTextoDer, .divQuinesSomosAnimales, .divQuinesSomosAnimalesTexto {
+        width: 100%;
+    }
+    /*que hacemos template*/
+    .templateHeader a {
+        width: 24px;
+        height: 24px;
+        padding: 4px;
+    }
+    .templateHeader h1 {
+        font-size: 3.8vw;
+        width: 100%;
+    }
+    .templateTextNormal {
+        font-size: 4vw;
+    }
+    .templateTextSmall {
+        font-size: 3.7vw;
+    }
+    .listaTemplate {
+        font-size: 3.7vw;
+    }
+    .templateGaleriaBox {
+        height: 112px;
+    }
+    .templateGaleriaBox p {
+        font-size: 3vw;
+        padding: 0 5px;
+    }
+     /*ecogranjas*/
+     .sectionEcogranja1 {
+        background: #335151;
+        border-radius: 4px; 
+    }
+    .ecogranjaDescripcion {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .imgBoxEcogranja, .imgBoxEcogranja2 {
+        height: 160px;
+    }
+    .boxTextDescripcion h2 {
+        font-size: 4vw;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    .boxTextDescripcion p, .boxTextDescripcion h3 {
+        font-size: 3.2vw;
+    }
+    .ecogranjaObjetivos h2 {
+        font-size: 6vw;
+    }
+    .bloqueObjetivosDescripcion {
+        text-align: center;
+    }
+    .bloqueObjetivosDescripcion h3 {
+        font-size: 5vw;
+    }
+    .bloqueObjetivosDescripcion ul li {
+        font-size: 4vw;
+        font-weight: 500;
+        font-style: italic;
+        line-height: 18px;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+    .etapasHeader, .actividadesHeader {
+        font-size: 5vw;
+        line-height: 20px;
+    }
+    .etapasBody li, .actividadesBody li {
+        font-size: 3vw;
+        margin-bottom: 20px;
     }
 }
