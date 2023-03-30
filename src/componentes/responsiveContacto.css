@@ -81,4 +81,37 @@
         line-height: 135%;
     }
 
-}
+    767
+
+.textoDerVoluntariado {
+        font-size: 18px;
+    }
+
+    .tituloVoluntariado {
+        font-size: 25px;
+        line-height: 32px;
+    }
+
+    .divColorTextoIzqValoresVoluntariado {
+        background: #335151;
+        position: relative;
+        padding: 1rem;
+        border-radius: 40px 0px;
+        left: 40px;
+        width: auto;
+        height: auto;
+    }
+
+    .textoValoresVoluntariado {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        color: #F3FFF5;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 180%;
+    }
+
+

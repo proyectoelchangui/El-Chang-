@@ -12,6 +12,7 @@
         font-size: 0.8em;
         margin: 0 5px;
     }
+
 }
 
 /**********
@@ -88,6 +89,7 @@
     }
 
     /*template cabezal*/
+
     .texto {
         font-weight: 600;
         font-size: 31.25px;
@@ -95,9 +97,6 @@
     }
 
     /*HOME*/
-    .divAgroecologia {
-        margin: 0;
-    }
 
     .div {
         padding: 0;
@@ -150,27 +149,92 @@
         text-align: center;
         letter-spacing: 0.01em;
     }
-    /*que hacemos*/
-    .queHacemosFlexBox {
-        margin: 50px 0px;
-        padding: 0;
+
+    /*VOLUNTARIADO*/
+
+    .textoDerVoluntariado {
+        font-size: 18px;
     }
-    .boxQueHacemos {
-        height: 216px;
+
+    .tituloVoluntariado {
+        font-size: 25px;
+        line-height: 32px;
     }
-    .TextoBox {
+
+    .divColorTextoIzqValoresVoluntariado {
+        left: 40px;
+        width: auto;
+        height: auto;
+    }
+
+    .textoValoresVoluntariado {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 180%;
+    }
+
+    .TextoVoluntariado {
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+
+    .containerPropuestaVoluntariado {
+        margin: 5rem 1%;
+    }
+
+    .divTextoIzqPropuestaVoluntariado {
+        padding: 0rem 0 0 0.5rem;
+        text-align: left;
+    }
+
+    .TextoIzqPropuestaVoluntariado {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 140%;
+    }
+
+    .ListaPropuestaVoluntariado {
         font-size: 16px;
-        line-height: 25px;
-        letter-spacing: 0.01em;
     }
-    .masBox {
-        width: 24px;
-        height: 24px;
-        bottom: 25px;
+
+    .ListaLetraChicaPropuestaVoluntariado {
+        font-size: 15px;
     }
-    .masBox svg {
-        width: 15px;
-        height: 15px;
+
+    .containerImportanteVoluntariado {
+        margin: 5rem 5%;
+    }
+
+    .tituloImportanteVoluntariado {
+        font-size: 20px;
+    }
+
+    .textoImportanteVoluntariado {
+        font-size: 16px;
+    }
+
+    .tituloActividadVoluntariado {
+        font-size: 25px;
+        line-height: 32px;
+    }
+
+    .TextoActividadVoluntariado {
+        font-size: 20px;
+    }
+
+    .divFotoPlantinesVoluntariado {
+        margin: 0px 10%;
+    }
+
+    .ultimoTextoVoluntariado {
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .ultimoTextoLinkVoluntariado {
+        font-weight: 600;
+        font-size: 20px;
     }
 
 }
@@ -186,29 +250,119 @@
     .copyFooter {
         padding: 0 20px;
     }
-    /*carousel*/
-    .slick-next {
-        right: 0;
+
+    /*VOLUNTARIADO*/
+
+    .divColorVoluntariado {
+        flex-direction: column-reverse;
     }
-    /*que hacemos*/
-    .queHacemosFlexBox {
-        flex-wrap: wrap;
+
+    .divFotoIzqVoluntariado {
+        width: 100%;
+        height: 50%;
     }
-    .boxQueHacemos {
-        height: 216px;
+
+    .fotoIzqVoluntariado {
+        margin: 8% 0 0 0;
+        width: 100%;
+        padding: 0rem 1rem;
     }
-    .TextoBox {
+
+    .divTextoDerVoluntariado {
+        width: 100%;
+        height: 50%;
+    }
+
+    .textoDerVoluntariado {
         font-size: 16px;
+        text-align: center;
+    }
+
+    .tituloVoluntariado {
+        font-weight: 400;
+        font-size: 20px;
         line-height: 25px;
-        letter-spacing: 0.01em;
     }
-    .masBox {
-        width: 24px;
-        height: 24px;
-        bottom: 25px;
+
+    .TextoVoluntariado {
+        font-size: 16px;
     }
-    .masBox svg {
-        width: 15px;
-        height: 15px;
+
+    .containerPropuestaVoluntariado {
+        height: 35rem;
+        margin: 5rem 0;
     }
+
+    .divFlexPropuestaVoluntariado {
+        flex-direction: column;
+    }
+
+    .divTextoIzqPropuestaVoluntariado {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        align-items: center;
+    }
+
+    .TextoIzqPropuestaVoluntariado {
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .ListaPropuestaVoluntariado {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+    .divFotoDerPropuestaVoluntariado {
+        width: 100%;
+        height: 50%;
+    }
+
+    .tituloImportanteVoluntariado {
+        font-size: 16px;
+    }
+
+    .textoImportanteVoluntariado {
+        font-size: 14px;
+    }
+
+    .tituloActividadVoluntariado {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .TextoActividadVoluntariado {
+        font-size: 16px;
+    }
+
+    .divFotoPlantinesVoluntariado {
+        margin: 0;
+    }
+
+    .divFlexPropuestaVoluntariado {
+        flex-direction: column;
+    }
+
+    .divFotoDerPropuestaVoluntariado {
+        width: 100%;
+        height: 50%;
+    }
+
+    .divTextoIzqPropuestaVoluntariado {
+        width: 100%;
+        height: 50%;
+    }
+
+    .ultimoTextoVoluntariado {
+        font-size: 16px;
+    }
+
+    .ultimoTextoLinkVoluntariado {
+        font-size: 16px;
+    }
+
 }

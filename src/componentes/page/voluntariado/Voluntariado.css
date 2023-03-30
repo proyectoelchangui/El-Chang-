@@ -167,11 +167,14 @@
     flex-direction: column;
     justify-content: space-evenly;
     padding: 1rem;
+    gap: 1rem;
 }
 
 .TextoIzqPropuestaVoluntariado {
     margin: 0;
-    font-size: 1.5rem;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 140%;
 }
 
 .divListaPropuestaVoluntariado {
@@ -183,6 +186,14 @@
 
 .ListaPropuestaVoluntariado {
     font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #335151;
+    margin: 0;
+}
+
+.ListaLetraChicaPropuestaVoluntariado {
+    font-weight: 300;
     font-size: 20px;
     line-height: 140%;
     color: #335151;
@@ -212,7 +223,7 @@
     border-radius: 40px 0px;
     height: 10rem;
     margin: 5rem 0px;
-    
+
 }
 
 .divImportanteVoluntariado {
@@ -242,6 +253,25 @@
     text-align: center;
 }
 
+.tituloActividadVoluntariado {
+    font-weight: 600;
+    font-size: 31.25px;
+    line-height: 40px;
+    color: #335151;
+    text-align: center;
+    margin: 0;
+}
+
+.TextoActividadVoluntariado {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 140%;
+    color: #335151;
+    text-align: center;
+    margin: 0;
+}
+
 .divFotoPlantinesVoluntariado {
     background: #D2D5B8;
     border-radius: 0px 40px;
@@ -256,6 +286,7 @@
     width: 90%;
     border-radius: 0px 40px;
     box-shadow: 0px 500px 200px rgba(0, 0, 0, 0.01), 0px 281px 169px rgba(0, 0, 0, 0.05), 0px 125px 125px rgba(0, 0, 0, 0.09), 0px 31px 69px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
 }
 
 .fotoMaderaVoluntariado {
