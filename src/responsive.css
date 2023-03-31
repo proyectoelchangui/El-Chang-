@@ -294,59 +294,31 @@
 
     /*ecogranjas*/
 
-    .sectionEcogranja1 {
-        background: #335151;
-        border-radius: 4px;
+    .divEcogranjaEducativo {
+        display: flex;
+        height: auto;
     }
 
-    .imgBoxEcogranja,
-    .imgBoxEcogranja2 {
-        width: 100%;
-        height: 338px;
+    .tituloEcogranjaEducativo {
+        font-size: 20px;
     }
 
-    .boxTextDescripcion h2 {
-        font-size: 2vw;
-        line-height: 24px;
-        margin-bottom: 20px;
+    .textoEcogranjaEducativo {
+        font-size: 16px;
     }
 
-    .boxTextDescripcion p,
-    .boxTextDescripcion h3 {
-        font-size: 1.7vw;
-        margin-bottom: 20px;
+    .textoNegritaEcogranjaEducativo {
+        font-size: 18px;
     }
 
-    .ecogranjaObjetivos h2 {
-        font-size: 4vw;
+    .ContainerFotoTextoEcogranja {
+        padding: 0;
+        margin: 50px 0px;
     }
 
-    .bloqueObjetivosDescripcion {
-        width: 100%;
-    }
 
-    .bloqueObjetivosDescripcion h3 {
-        font-size: 2.5vw;
-    }
-
-    .bloqueObjetivosDescripcion ul {
-        margin-top: 20px;
-    }
-
-    .bloqueObjetivosDescripcion ul li {
-        font-size: 1.5vw;
-        font-weight: 500;
-        font-style: italic;
-        line-height: 18px;
-        margin-bottom: 20px;
-    }
-
-    .imgContBLoqueObjetivos {
-        width: 100%;
-    }
-
-    .imgContBloqueObjetivosImg {
-        width: 80%;
+    .textoEcogranjaFotoTexto {
+        font-size: 14px;
     }
 
     .etapasHeader,
@@ -677,53 +649,26 @@
     }
 
     /*ecogranjas*/
-    
-    .sectionEcogranja1 {
-        background: #335151;
-        border-radius: 4px;
-    }
 
-    .ecogranjaDescripcion {
+    .divEcogranjaEducativo {
         display: flex;
-        flex-wrap: wrap;
+        height: auto;
         flex-direction: column-reverse;
     }
 
-    .imgBoxEcogranja,
-    .imgBoxEcogranja2 {
-        height: 160px;
+    .ContainerFotoTextoEcogranja {
+        flex-direction: column-reverse;
+        gap: 2rem;
     }
 
-    .boxTextDescripcion h2 {
-        font-size: 4vw;
-        line-height: 24px;
-        margin-bottom: 20px;
+    .diveEcogranjaFotoIzq {
+        width: 100%;
+        height: 50%;
     }
 
-    .boxTextDescripcion p,
-    .boxTextDescripcion h3 {
-        font-size: 3.2vw;
-    }
-
-    .ecogranjaObjetivos h2 {
-        font-size: 6vw;
-    }
-
-    .bloqueObjetivosDescripcion {
-        text-align: center;
-    }
-
-    .bloqueObjetivosDescripcion h3 {
-        font-size: 5vw;
-    }
-
-    .bloqueObjetivosDescripcion ul li {
-        font-size: 4vw;
-        font-weight: 500;
-        font-style: italic;
-        line-height: 18px;
-        margin-bottom: 30px;
-        text-align: left;
+    .divEcogranjaTextoDer {
+        width: 100%;
+        height: 50%;
     }
 
     .etapasHeader,
