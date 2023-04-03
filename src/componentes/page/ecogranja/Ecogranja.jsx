@@ -1,5 +1,6 @@
 import TemplateCabezal from '../cabezal-template/TemplateCabezal';
 import Carousel from '../carousel-template/Carousel';
+import { Link } from "react-router-dom";
 import './Ecogranja.css';
 const Ecogranja = () => {
     const img = "https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Granja%20educativa%2FOvejas%20y%20ni%C3%B1os.jpg?alt=media&token=e43ca480-6dd9-46a1-80cb-12a500383723";
@@ -46,7 +47,7 @@ const Ecogranja = () => {
             <TemplateCabezal titulo={'Ecogranja'} img={img} position={'center'} />
 
             <div className="container">
-                
+
 
                 <div className="containerQuinesSomosSoñadores">
 
@@ -87,8 +88,8 @@ const Ecogranja = () => {
 
                 </div>
 
-                <div className="divTituloVoluntariado">
-                    <h2 className="tituloVoluntariado">¿Te gustaría formar parte del Voluntariado?</h2>
+                <div className="divTituloEcogranja">
+                    <h2 className="tituloVoluntariado">Objetivos generales</h2>
                 </div>
 
                 <div className="ContainerFotoTextoEcogranja">
@@ -150,8 +151,8 @@ const Ecogranja = () => {
 
                 </div>
 
-                <div className="divTituloVoluntariado">
-                    <h2 className="tituloVoluntariado">¿Te gustaría formar parte del Voluntariado?</h2>
+                <div className="divTituloEcogranja">
+                    <h2 className="tituloVoluntariado">Objetivos específicos</h2>
                 </div>
 
                 <div className="ContainerFotoTextoEcogranja">
@@ -213,8 +214,6 @@ const Ecogranja = () => {
 
             </div>
 
-
-
             <section className="ecogranjasEtapas">
                 <div className="container flexboxEtapas">
                     <div className="etapas">
@@ -240,7 +239,16 @@ const Ecogranja = () => {
 
                 </div>
             </section>
+
             <Carousel arrayCarousel={arrayCarousel} titulo={'Habitantes del Changüí'} />
+
+
+            <div className="container">
+                <div className="divUltimoTextoVoluntariado">
+                    <h2 className="ultimoTextoVoluntariado">Si te interesa saber más de nuestra propuesta de Ecogranja, <Link className="ultimoTextoLinkVoluntariado" to="/contactanos">contactanos</Link> </h2>
+                </div>
+            </div>
+
         </>
     );
 }

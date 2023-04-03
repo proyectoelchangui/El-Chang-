@@ -12,6 +12,7 @@ footer {
 .sloganFooter {
     font-weight: 400;
     color: #F2F2F2;
+    font-size: 14px;
     text-align: left
 }
 .footerTexto {
@@ -21,6 +22,9 @@ footer {
 }
 .footerIconos{
     width: 2rem;
+}
+.iconNone{
+    display: none;
 }
 .footerInconosColor{
     fill: #F3FFF5;
@@ -49,4 +53,7 @@ footer {
     color: #F2F2F2;
     text-align: left;
     margin-top: 50px;
+}
+.divFooter{
+    
 }
