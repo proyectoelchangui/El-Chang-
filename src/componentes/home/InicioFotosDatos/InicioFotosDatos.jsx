@@ -83,7 +83,7 @@ const InicioFotosDatos = () => {
     ]
     return (
         <>
-            <div className='text-center'>
+            <div className='divTituloEcogranja text-center'>
                 <h2 className='InicioVideoTexto'>Datos de interés</h2>
             </div>
             <section className="queHacemosFlexBox row">

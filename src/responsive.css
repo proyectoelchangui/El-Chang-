@@ -84,6 +84,8 @@
 
     .DivFooter {
         text-align: center !important;
+        justify-content: center;
+        padding: 50px 10px;
     }
 
     .sloganFooter {
@@ -98,6 +100,9 @@
     .iconMobile {
         display: inline-block;
     }
+    .iconNone{
+        display: inline-block;
+    }
 
     .footerTexto,
     .footerSeparador,
@@ -107,7 +112,7 @@
 
     .box-footer {
         margin-top: 50px;
-        padding: 0 20%;
+        padding: 0 5%;
     }
 
     .copyFooter {
@@ -439,6 +444,9 @@
     .sloganFooter,
     .copyFooter {
         padding: 0 20px;
+    }
+    .divFooter{
+        align-items: center;
     }
 
     /*inicio*/

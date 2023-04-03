@@ -1,5 +1,4 @@
 import './InicioVideo.css'
-import Hojas from '../../../imagenes/imagenesInicio/Hojas.jpg'
 
 const InicioVideo = () => {
     return (
@@ -9,7 +8,7 @@ const InicioVideo = () => {
                     <h2 className='InicioVideoTexto'>Nuestro espacio, naturaleza al alcance de todos</h2>
                 </div>
                     <div className='divInicioVideo'>
-                        <img className='inicioVideo' src={Hojas} alt="" />
+                        <video loop autoPlay muted controls className='inicioVideo' src="https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Inicio%2FVideo.mp4?alt=media&token=b4ea9273-0da9-4b32-b8ab-1396114dff98" alt="" ></video>
                 </div>
             </div>
         </>
