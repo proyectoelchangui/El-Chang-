@@ -3,6 +3,7 @@ import TemplateCabezal from "../cabezal-template/TemplateCabezal";
 import './Voluntariado.css'
 
 const Voluntariado = () => {
+    document.title = "Voluntariado | elchangui.com.ar"
     return (
         <>
             <TemplateCabezal titulo={'Voluntariado'} img={'https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Voluntariado%2Fgrupo.jpg?alt=media&token=9c873cbb-ae50-4b32-ab23-21d5ac84bcea'} position={'center'} />

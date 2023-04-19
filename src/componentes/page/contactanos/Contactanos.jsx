@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 const Contactanos = () => {
+    document.title = "Contactanos | elchangui.com.ar"
     return (
         <>
             <TemplateCabezal titulo={'Contactanos'} img={'https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/contactanos%2FIngreso.jpg?alt=media&token=21649a07-b11f-4fe3-ad8d-01311a4eda35'} position={'right'} />

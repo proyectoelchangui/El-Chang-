@@ -42,6 +42,8 @@ const Ecogranja = () => {
             position: 'center'
         }
     ]
+    document.title = "Ecogranja | elchangui.com.ar"
+
     return (
         <>
             <TemplateCabezal titulo={'Ecogranja'} img={img} position={'center'} />

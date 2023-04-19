@@ -2,6 +2,8 @@ import TemplateCabezal from "../cabezal-template/TemplateCabezal";
 import './QuienesSomos.css'
 
 const QuinenesSomos = () => {
+    document.title = "Quiénes somos | elchangui.com.ar"
+
     return (
         <>
             <TemplateCabezal titulo={'Quiénes somos'} img={"https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Qui%C3%A9nes%20somos%2FEsteban.jpg?alt=media&token=78710575-0a32-46b8-814f-d459201e1f92"} position={'right'}/>

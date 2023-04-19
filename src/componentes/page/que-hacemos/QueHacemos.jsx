@@ -4,6 +4,8 @@ import './QueHacemos.css';
 
 const QueHacemos = () => {
     const img = 'https://firebasestorage.googleapis.com/v0/b/el-changui.appspot.com/o/Qu%C3%A9%20hacemos%2FEsteban%20Qu%C3%A9%20hacemos.jpg?alt=media&token=ca91950d-314f-4254-bdfb-364a7dc1448f';
+    document.title = "Que Hacemos | elchangui.com.ar"
+    
     return(
         <>
         <TemplateCabezal titulo={'Qué hacemos'} img={img} position={'center'} />
