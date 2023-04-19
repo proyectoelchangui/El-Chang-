@@ -42,6 +42,7 @@ const Home = () => {
             position: 'center'
         }
     ]
+    document.title = "El Changüí"
     return(
         <>
         <InicioNaturaleza></InicioNaturaleza>
